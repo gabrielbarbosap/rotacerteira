@@ -14,6 +14,8 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			// Assinatura da matéria.
+			author: z.string().default('Gabriel Barbosa'),
 			// Pilar (topic cluster) a que o artigo pertence.
 			pillar: z.enum(['destinos', 'equipamentos', 'conectividade', 'financas', 'ia']),
 			// Nome do cluster específico (ex: "Roteiros Europa").

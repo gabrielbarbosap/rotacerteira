@@ -176,6 +176,39 @@ hr {
 	transform: translateY(-1px);
 }
 
+/* Caixa de produto recomendado (destaque de afiliado no meio do artigo). */
+.produto-rec {
+	border: 1px solid var(--border);
+	border-top: 4px solid var(--accent);
+	border-radius: 12px;
+	background: var(--surface);
+	padding: 1.2em 1.3em;
+	margin: 2em 0;
+}
+.produto-rec__tag {
+	display: inline-block;
+	background: var(--accent);
+	color: var(--accent-ink);
+	font: 700 0.65rem/1 var(--font-body), sans-serif;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+	padding: 0.35em 0.7em;
+	border-radius: 999px;
+	margin-bottom: 0.6em;
+}
+.produto-rec__nome {
+	display: block;
+	font-family: var(--font-heading), Georgia, serif;
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: var(--heading);
+	line-height: 1.2;
+}
+.produto-rec__motivo {
+	color: var(--muted);
+	margin: 0.4em 0 1em;
+}
+
 /* Nota de divulgação de afiliado. */
 .afiliado-nota {
 	font-size: 0.85em;

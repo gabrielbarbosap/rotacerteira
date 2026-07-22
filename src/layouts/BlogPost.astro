@@ -1,9 +1,13 @@
 ---
 import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import type { MarkdownHeading } from 'astro';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { PILLARS } from '../consts';
 
 interface Props {
 	title: string;
@@ -12,57 +16,39 @@ interface Props {
 	updatedDate?: Date;
 	heroImage?: import('astro').ImageMetadata;
 	pillar?: string;
+	author?: string;
+	headings?: MarkdownHeading[];
+	related?: CollectionEntry<'blog'>[];
 }
 
-const { title, description, pubDate, updatedDate, heroImage, pillar } = Astro.props;
+const {
+	title,
+	description,
+	pubDate,
+	updatedDate,
+	heroImage,
+	pillar,
+	author = 'Gabriel Barbosa',
+	headings = [],
+	related = [],
+} = Astro.props;
+
+const pillarLabel = PILLARS.find((p) => p.slug === pillar)?.label ?? pillar;
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+
+const shareUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const shareText = encodeURIComponent(title);
+const shareHref = {
+	whatsapp: `https://wa.me/?text=${shareText}%20${encodeURIComponent(shareUrl)}`,
+	x: `https://twitter.com/intent/tweet?text=${shareText}&url=${encodeURIComponent(shareUrl)}`,
+	facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
+};
 ---
 
 <html lang="pt-BR">
 	<head>
 		<BaseHead title={title} description={description} image={heroImage} />
-		<style>
-			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
-				padding: 0;
-			}
-			.hero-image {
-				width: 100%;
-				max-width: 1020px;
-				margin: 1.5em auto 0;
-			}
-			.hero-image img {
-				display: block;
-				margin: 0 auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
-			}
-			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
-				color: var(--text);
-			}
-			.title {
-				margin-bottom: 1em;
-				padding: 1.5em 0 1em;
-				line-height: 1.1;
-			}
-			.title h1 {
-				margin: 0.3em 0 0.4em 0;
-			}
-			.meta {
-				color: var(--muted);
-				font-size: 0.9em;
-			}
-			.last-updated-on {
-				font-style: italic;
-			}
-		</style>
 	</head>
-
 	<body>
 		<Header />
 		<main>
@@ -75,23 +61,201 @@ const { title, description, pubDate, updatedDate, heroImage, pillar } = Astro.pr
 					)
 				}
 				<div class="prose">
-					<div class="title">
-						{pillar && <span class="pilar-badge">{pillar}</span>}
+					<header class="post-head">
+						{pillar && <a class="pilar-badge" href={`/${pillar}`}>{pillarLabel}</a>}
 						<h1>{title}</h1>
-						<div class="meta">
+						<p class="lede">{description}</p>
+						<div class="byline">
+							<span class="author">{author}</span>
+							<span class="sep">·</span>
 							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<span class="last-updated-on"> · atualizado em <FormattedDate date={updatedDate} /></span>
-								)
-							}
+							{updatedDate && (
+								<span class="upd">· atualizado em <FormattedDate date={updatedDate} /></span>
+							)}
 						</div>
-						<hr />
+					</header>
+
+					{
+						toc.length >= 2 && (
+							<nav class="toc" aria-label="Índice">
+								<p class="toc-title">Neste artigo</p>
+								<ol>
+									{toc.map((h) => (
+										<li class:list={[{ sub: h.depth === 3 }]}>
+											<a href={`#${h.slug}`}>{h.text}</a>
+										</li>
+									))}
+								</ol>
+							</nav>
+						)
+					}
+
+					<div class="content">
+						<slot />
 					</div>
-					<slot />
+
+					<div class="share">
+						<span>Compartilhar:</span>
+						<a href={shareHref.whatsapp} target="_blank" rel="noopener">WhatsApp</a>
+						<a href={shareHref.x} target="_blank" rel="noopener">X</a>
+						<a href={shareHref.facebook} target="_blank" rel="noopener">Facebook</a>
+						<button type="button" class="copy-link" data-url={shareUrl}>Copiar link</button>
+					</div>
+
+					<p class="afiliado-nota">
+						Divulgação: este artigo pode conter links de afiliado. Se você comprar por eles, o Rota
+						Certeira pode receber uma comissão, sem custo extra para você. Recomendamos apenas o que
+						consideramos a escolha certeira.
+					</p>
 				</div>
+
+				{
+					related.length > 0 && (
+						<aside class="related">
+							<h2 class="section-title">Leia também</h2>
+							<div class="card-grid">
+								{related.map((post) => (
+									<ArticleCard post={post} />
+								))}
+							</div>
+						</aside>
+					)
+				}
 			</article>
 		</main>
 		<Footer />
+		<script>
+			document.querySelectorAll('.copy-link').forEach((btn) => {
+				btn.addEventListener('click', async () => {
+					const url = btn.getAttribute('data-url') || location.href;
+					try {
+						await navigator.clipboard.writeText(url);
+						const original = btn.textContent;
+						btn.textContent = 'Link copiado!';
+						setTimeout(() => (btn.textContent = original), 1800);
+					} catch {}
+				});
+			});
+		</script>
 	</body>
 </html>
+<style>
+	main {
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
+	.hero-image {
+		max-width: 1020px;
+		margin: 1.5em auto 0;
+		padding: 0 1em;
+	}
+	.hero-image :global(img) {
+		display: block;
+		width: 100%;
+		border-radius: 12px;
+		box-shadow: var(--box-shadow);
+	}
+	.prose {
+		width: 720px;
+		max-width: calc(100% - 2em);
+		margin: auto;
+		padding: 1em;
+	}
+	.post-head {
+		padding: 1.5em 0 0.5em;
+	}
+	.post-head h1 {
+		margin: 0.3em 0 0.3em;
+		line-height: 1.1;
+	}
+	.lede {
+		font-size: 1.2rem;
+		color: var(--muted);
+		margin: 0 0 0.8em;
+	}
+	.byline {
+		font-size: 0.9rem;
+		color: var(--muted);
+		border-bottom: 1px solid var(--border);
+		padding-bottom: 1em;
+	}
+	.byline .author {
+		color: var(--heading);
+		font-weight: 600;
+	}
+	.byline .sep {
+		margin: 0 0.4em;
+	}
+	.toc {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-left: 3px solid var(--accent);
+		border-radius: 10px;
+		padding: 1em 1.2em;
+		margin: 1.5em 0;
+	}
+	.toc-title {
+		margin: 0 0 0.5em;
+		font-weight: 700;
+		color: var(--heading);
+		font-size: 0.95rem;
+	}
+	.toc ol {
+		margin: 0;
+		padding-left: 1.2em;
+	}
+	.toc li {
+		margin: 0.25em 0;
+	}
+	.toc li.sub {
+		margin-left: 1em;
+		list-style: circle;
+		font-size: 0.95em;
+	}
+	.toc a {
+		text-decoration: none;
+	}
+	.toc a:hover {
+		text-decoration: underline;
+	}
+	.content :global(h2) {
+		scroll-margin-top: 80px;
+		margin-top: 1.6em;
+	}
+	.content :global(h3) {
+		scroll-margin-top: 80px;
+	}
+	.share {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.6em;
+		margin: 2.5em 0 0;
+		font-size: 0.9rem;
+	}
+	.share span {
+		color: var(--muted);
+		font-weight: 600;
+	}
+	.share a,
+	.share .copy-link {
+		text-decoration: none;
+		color: var(--link);
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 999px;
+		padding: 0.35em 0.9em;
+		font: inherit;
+		cursor: pointer;
+	}
+	.share a:hover,
+	.share .copy-link:hover {
+		border-color: var(--accent);
+	}
+	.related {
+		width: 1120px;
+		max-width: calc(100% - 2em);
+		margin: 3em auto 0;
+	}
+</style>

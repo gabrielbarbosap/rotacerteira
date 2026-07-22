@@ -14,9 +14,17 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+
+// Relacionados: mesmo pilar, exclui o atual, até 3 (completa com o cluster).
+const related = (
+	await getCollection('blog', ({ data }) => (import.meta.env.PROD ? !data.draft : true))
+)
+	.filter((p) => p.id !== post.id && p.data.pillar === post.data.pillar)
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 3);
 ---
 
-<BlogPost {...post.data}>
+<BlogPost {...post.data} headings={headings} related={related}>
 	<Content />
 </BlogPost>
