@@ -17,7 +17,7 @@ A resposta rápida: 5 dias dão para conhecer o centro histórico, os grandes mu
 
 Três coisas resolvidas em casa evitam dor de cabeça lá:
 
-- **Seguro viagem.** No Reino Unido, uma consulta médica sem seguro custa caro. <a href="https://www.segurospromo.com.br/?utm_medium=afiliado&pcrid=12713&utm_source=site-blog" target="_blank" rel="sponsored nofollow noopener">Compare e contrate o seu antes de embarcar</a>.
+- **Seguro viagem.** No Reino Unido, uma consulta médica sem seguro custa caro. A <a href="https://www.segurospromo.com.br/?utm_medium=afiliado&pcrid=12713&utm_source=site-blog" target="_blank" rel="sponsored nofollow noopener">Seguros Promo</a> — um dos maiores comparadores de seguro viagem do Brasil — reúne as principais seguradoras num lugar só para você comparar e contratar antes de embarcar.
 - **Internet no celular.** Chegar já conectado facilita mapas e transporte. Veja [LINK INTERNO: eSIM para a Europa: como funciona e qual escolher].
 - **Transporte público.** Use um cartão contactless ou o Oyster; o metrô (Tube) leva você a quase tudo.
 
@@ -50,7 +50,7 @@ Feche a viagem no ritmo da cidade: o **Borough Market** para comer bem, o **Camd
 
 ## Passeios e ingressos em Londres (sem fila)
 
-Muita coisa em Londres tem fila — e comprar o ingresso ou o tour com antecedência economiza horas. Estes são alguns dos passeios mais bem avaliados na cidade:
+Muita coisa em Londres tem fila — e comprar o ingresso ou o tour com antecedência economiza horas. Os passeios abaixo são da GetYourGuide, uma das maiores e mais confiáveis plataformas de passeios e ingressos do mundo, com avaliações reais de viajantes e cancelamento flexível na maioria das atividades:
 
 <div data-gyg-widget="auto" data-gyg-partner-id="AWKZZM8" data-gyg-cmp="Londres"></div>
 
