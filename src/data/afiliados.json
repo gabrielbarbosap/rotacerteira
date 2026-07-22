@@ -8,6 +8,14 @@
 		"widget_doc": "Cole o snippet do widget no corpo do artigo onde os passeios devem aparecer. Troque data-gyg-cmp pelo nome da cidade/campanha (ex: Londres, Paris). O widget lista passeios automaticamente."
 	},
 	"links": {
+		"seguros-promo": {
+			"rede": "Seguros Promo",
+			"produto": "seguro viagem (comparador)",
+			"url": "https://www.segurospromo.com.br/?utm_medium=afiliado&pcrid=12713&utm_source=site-blog",
+			"cupom": "",
+			"rel": "sponsored nofollow noopener",
+			"_nota": "Link único oficial da Seguros Promo — usar SEMPRE este ao inserir seguro viagem."
+		},
 		"getyourguide-stonehenge-londres": {
 			"rede": "GetYourGuide",
 			"produto": "Stonehenge: excursão matinal saindo de Londres",

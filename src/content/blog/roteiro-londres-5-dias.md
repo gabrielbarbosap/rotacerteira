@@ -17,7 +17,7 @@ A resposta rápida: 5 dias dão para conhecer o centro histórico, os grandes mu
 
 Três coisas resolvidas em casa evitam dor de cabeça lá:
 
-- **Seguro viagem.** No Reino Unido, uma consulta médica sem seguro custa caro. Contrate antes de embarcar — [AFILIADO: Seguros Promo — seguro viagem Reino Unido].
+- **Seguro viagem.** No Reino Unido, uma consulta médica sem seguro custa caro. <a href="https://www.segurospromo.com.br/?utm_medium=afiliado&pcrid=12713&utm_source=site-blog" target="_blank" rel="sponsored nofollow noopener">Compare e contrate o seu antes de embarcar</a>.
 - **Internet no celular.** Chegar já conectado facilita mapas e transporte. Veja [LINK INTERNO: eSIM para a Europa: como funciona e qual escolher].
 - **Transporte público.** Use um cartão contactless ou o Oyster; o metrô (Tube) leva você a quase tudo.
 
