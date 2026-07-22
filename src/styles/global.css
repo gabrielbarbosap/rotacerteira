@@ -200,6 +200,38 @@ hr {
 	margin: 2em 0;
 }
 
+/* Grade de cards (feed e páginas de pilar). */
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 1.3em;
+}
+
+/* Título de seção com barra âmbar (estilo portal). */
+.section-title {
+	font-size: 1.5rem;
+	margin: 2em 0 1em;
+	padding-bottom: 0.4em;
+	border-bottom: 2px solid var(--accent);
+}
+.section-title:first-child {
+	margin-top: 0;
+}
+
+/* Breadcrumb das páginas de pilar/artigo. */
+.breadcrumb {
+	font-size: 0.85rem;
+	color: var(--muted);
+	margin: 1.5em 0 0.5em;
+}
+.breadcrumb a {
+	color: var(--muted);
+	text-decoration: none;
+}
+.breadcrumb a:hover {
+	color: var(--link);
+}
+
 /* Selo de pilar. */
 .pilar-badge {
 	display: inline-block;

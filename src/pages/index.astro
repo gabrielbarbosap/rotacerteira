@@ -3,20 +3,18 @@ import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import FormattedDate from '../components/FormattedDate.astro';
+import ArticleCard from '../components/ArticleCard.astro';
 import { SITE_DESCRIPTION, SITE_TITLE, PILLARS } from '../consts';
 
-const pillarBlurb: Record<string, string> = {
-	destinos: 'Roteiros e guias para viajar sem errar.',
-	equipamentos: 'Câmeras, mochilas e gear testados na prática.',
-	conectividade: 'eSIM, apps e gadgets para ficar sempre online.',
-	financas: 'Como economizar e não passar aperto no exterior.',
-	ia: 'Use inteligência artificial para planejar melhor.',
-};
+const all = (
+	await getCollection('blog', ({ data }) => (import.meta.env.PROD ? !data.draft : true))
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const posts = (await getCollection('blog', ({ data }) => import.meta.env.PROD ? !data.draft : true))
-	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-	.slice(0, 3);
+const featured = all[0];
+const mostRead = all.slice(1, 6);
+const recent = all.slice(1);
+
+const pillarLabel = (slug: string) => PILLARS.find((p) => p.slug === slug)?.label ?? slug;
 ---
 
 <!doctype html>
@@ -27,132 +25,142 @@ const posts = (await getCollection('blog', ({ data }) => import.meta.env.PROD ? 
 	<body>
 		<Header />
 		<main>
-			<section class="hero">
-				<h1>Viaje melhor com escolhas certeiras</h1>
-				<p>
-					Roteiros, equipamentos, conectividade, finanças e IA para a sua viagem — reunidos num só
-					lugar, para você decidir certo em cada etapa.
-				</p>
-			</section>
-
-			<section aria-label="Pilares" class="pillars">
-				{
-					PILLARS.map((p) => (
-						<a class="pillar-card" href={`/${p.slug}`}>
-							<span class="pillar-name">{p.label}</span>
-							<span class="pillar-blurb">{pillarBlurb[p.slug]}</span>
-						</a>
-					))
-				}
-			</section>
-
 			{
-				posts.length > 0 && (
-					<section class="latest">
-						<h2>Últimos artigos</h2>
-						<ul>
-							{posts.map((post) => (
-								<li>
-									<a href={`/blog/${post.id}/`}>
-										<span class="pilar-badge">{post.data.pillar}</span>
-										<span class="t">{post.data.title}</span>
-										<span class="d">
-											<FormattedDate date={post.data.pubDate} />
-										</span>
-									</a>
-								</li>
-							))}
-						</ul>
-						<p><a href="/blog">Ver todos os artigos →</a></p>
+				featured && (
+					<section class="home-hero">
+						<div class="hero-main">
+							<ArticleCard post={featured} featured />
+						</div>
+						<aside class="mais-lidas">
+							<h2>Mais lidas</h2>
+							<ol>
+								{mostRead.map((post) => (
+									<li>
+										<a href={`/blog/${post.id}/`}>
+											<span class="ml-pill">{pillarLabel(post.data.pillar)}</span>
+											<span class="ml-title">{post.data.title}</span>
+										</a>
+									</li>
+								))}
+							</ol>
+						</aside>
 					</section>
 				)
 			}
+
+			<nav class="pillar-chips" aria-label="Pilares">
+				{PILLARS.map((p) => <a href={`/${p.slug}`}>{p.label}</a>)}
+			</nav>
+
+			<section class="recent">
+				<h2 class="section-title">Mais recentes</h2>
+				{
+					recent.length > 0 ? (
+						<div class="card-grid">
+							{recent.map((post) => (
+								<ArticleCard post={post} />
+							))}
+						</div>
+					) : (
+						<p>Os próximos artigos estão a caminho. Volte em breve.</p>
+					)
+				}
+			</section>
 		</main>
 		<Footer />
 	</body>
 </html>
 <style>
-	.hero {
-		padding: 1.5em 0 0.5em;
+	main {
+		width: 1120px;
+		max-width: calc(100% - 2em);
 	}
-	.hero h1 {
-		font-size: 2.8em;
-		max-width: 12ch;
-	}
-	.hero p {
-		font-size: 1.15em;
-		color: var(--muted);
-		max-width: 55ch;
-	}
-	.pillars {
+	.home-hero {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-		gap: 1em;
-		margin: 2em 0 3em;
+		grid-template-columns: 1fr;
+		gap: 1.5em;
+		margin-top: 1.5em;
 	}
-	.pillar-card {
-		display: flex;
-		flex-direction: column;
-		gap: 0.3em;
-		padding: 1.1em;
+	.mais-lidas {
 		background: var(--surface);
 		border: 1px solid var(--border);
 		border-radius: 12px;
+		padding: 1.2em 1.3em;
+	}
+	.mais-lidas h2 {
+		font-size: 1.1rem;
+		margin: 0 0 0.6em;
+		padding-bottom: 0.5em;
+		border-bottom: 2px solid var(--accent);
+	}
+	.mais-lidas ol {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		counter-reset: ml;
+	}
+	.mais-lidas li {
+		counter-increment: ml;
+		border-bottom: 1px solid var(--border);
+	}
+	.mais-lidas li:last-child {
+		border-bottom: none;
+	}
+	.mais-lidas li a {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		gap: 0.2em 0.7em;
+		align-items: start;
+		padding: 0.7em 0;
 		text-decoration: none;
-		transition: transform 0.15s ease, box-shadow 0.15s ease;
 	}
-	.pillar-card:hover {
-		transform: translateY(-2px);
-		box-shadow: var(--box-shadow);
-	}
-	.pillar-name {
+	.mais-lidas li a::before {
+		content: counter(ml);
+		grid-row: 1 / span 2;
 		font-family: var(--font-heading), Georgia, serif;
 		font-weight: 700;
-		font-size: 1.15em;
+		font-size: 1.4rem;
+		color: var(--accent);
+		line-height: 1;
+		min-width: 1ch;
+	}
+	.ml-pill {
+		font: 700 0.6rem/1 var(--font-body), sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 0.4px;
+		color: var(--link);
+	}
+	.ml-title {
 		color: var(--heading);
+		font-weight: 600;
+		font-size: 0.95rem;
+		line-height: 1.3;
 	}
-	.pillar-blurb {
-		font-size: 0.9em;
-		color: var(--muted);
+	.mais-lidas li a:hover .ml-title {
+		color: var(--link);
 	}
-	.latest ul {
-		list-style: none;
-		padding: 0;
-		margin: 1em 0;
+	.pillar-chips {
 		display: flex;
-		flex-direction: column;
-		gap: 0.6em;
+		flex-wrap: wrap;
+		gap: 0.5em;
+		margin: 2em 0 1.5em;
 	}
-	.latest li a {
-		display: flex;
-		align-items: center;
-		gap: 0.8em;
-		padding: 0.8em 1em;
+	.pillar-chips a {
 		background: var(--surface);
 		border: 1px solid var(--border);
-		border-radius: 10px;
+		border-radius: 999px;
+		padding: 0.4em 0.9em;
 		text-decoration: none;
 		color: var(--text);
+		font-size: 0.9rem;
 	}
-	.latest li a:hover {
+	.pillar-chips a:hover {
 		border-color: var(--accent);
+		color: var(--link);
 	}
-	.latest .t {
-		font-weight: 600;
-		flex: 1;
-	}
-	.latest .d {
-		color: var(--muted);
-		font-size: 0.85em;
-		white-space: nowrap;
-	}
-	@media (max-width: 720px) {
-		.hero h1 {
-			font-size: 2.1em;
-		}
-		.latest li a {
-			flex-wrap: wrap;
-			gap: 0.4em;
+	@media (min-width: 900px) {
+		.home-hero {
+			grid-template-columns: 2fr 1fr;
 		}
 	}
 </style>

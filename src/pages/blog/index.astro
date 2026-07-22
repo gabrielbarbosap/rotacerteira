@@ -2,8 +2,8 @@
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
 import { SITE_TITLE } from '../../consts';
 
 const posts = (
@@ -22,24 +22,19 @@ const description = 'Todos os artigos do Rota Certeira.';
 	<body>
 		<Header />
 		<main>
-			<h1>Blog</h1>
+			<nav class="breadcrumb" aria-label="Trilha">
+				<a href="/">Início</a> › <span>Blog</span>
+			</nav>
+			<h1 class="section-title">Todos os artigos</h1>
 			{
 				posts.length === 0 ? (
 					<p>Os primeiros artigos estão a caminho. Volte em breve.</p>
 				) : (
-					<ul class="post-list">
+					<div class="card-grid">
 						{posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									<span class="pilar-badge">{post.data.pillar}</span>
-									<span class="t">{post.data.title}</span>
-									<span class="d">
-										<FormattedDate date={post.data.pubDate} />
-									</span>
-								</a>
-							</li>
+							<ArticleCard post={post} />
 						))}
-					</ul>
+					</div>
 				)
 			}
 		</main>
@@ -47,41 +42,8 @@ const description = 'Todos os artigos do Rota Certeira.';
 	</body>
 </html>
 <style>
-	.post-list {
-		list-style: none;
-		padding: 0;
-		margin: 1.5em 0;
-		display: flex;
-		flex-direction: column;
-		gap: 0.6em;
-	}
-	.post-list li a {
-		display: flex;
-		align-items: center;
-		gap: 0.8em;
-		padding: 0.8em 1em;
-		background: var(--surface);
-		border: 1px solid var(--border);
-		border-radius: 10px;
-		text-decoration: none;
-		color: var(--text);
-	}
-	.post-list li a:hover {
-		border-color: var(--accent);
-	}
-	.post-list .t {
-		font-weight: 600;
-		flex: 1;
-	}
-	.post-list .d {
-		color: var(--muted);
-		font-size: 0.85em;
-		white-space: nowrap;
-	}
-	@media (max-width: 720px) {
-		.post-list li a {
-			flex-wrap: wrap;
-			gap: 0.4em;
-		}
+	main {
+		width: 1120px;
+		max-width: calc(100% - 2em);
 	}
 </style>
