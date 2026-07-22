@@ -1,0 +1,242 @@
+/*
+  Tema Rota Certeira — direção "Rota Confiável" (navy + âmbar).
+  Estrutura base inspirada no Bear Blog (MIT), recolorida com os tokens da marca.
+*/
+
+:root {
+	/* Tokens da marca */
+	--rc-navy: #0f2a43;
+	--rc-blue: #1e5a8a;
+	--rc-amber: #f2a93b;
+	--rc-amber-ink: #3a2905;
+	--rc-paper: #f7f5f0;
+	--rc-surface: #ffffff;
+	--rc-ink: #1a1d21;
+	--rc-muted: #5b6470;
+	--rc-border: #e7e3da;
+
+	/* Papéis (usados pelo tema) */
+	--bg: var(--rc-paper);
+	--surface: var(--rc-surface);
+	--text: var(--rc-ink);
+	--muted: var(--rc-muted);
+	--heading: var(--rc-navy);
+	--link: var(--rc-blue);
+	--accent: var(--rc-amber);
+	--accent-ink: var(--rc-amber-ink);
+	--border: var(--rc-border);
+
+	--box-shadow:
+		0 2px 6px rgba(15, 42, 67, 0.06), 0 8px 24px rgba(15, 42, 67, 0.08),
+		0 16px 32px rgba(15, 42, 67, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #0e1a28;
+		--surface: #14263a;
+		--text: #e6eaf0;
+		--muted: #9aa6b4;
+		--heading: #f5f1e8;
+		--link: #6fb0e0;
+		--accent: #f4b457;
+		--accent-ink: #241a06;
+		--border: #22384f;
+		--box-shadow:
+			0 2px 6px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.4);
+	}
+}
+
+body {
+	font-family: var(--font-body), system-ui, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: var(--bg);
+	color: var(--text);
+	font-size: 18px;
+	line-height: 1.7;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+main {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: auto;
+	padding: 3em 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.5rem 0;
+	font-family: var(--font-heading), Georgia, serif;
+	color: var(--heading);
+	line-height: 1.15;
+	font-weight: 700;
+}
+h1 {
+	font-size: 2.6em;
+}
+h2 {
+	font-size: 1.9em;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	font-size: 1.25em;
+}
+h5 {
+	font-size: 1.1em;
+}
+strong,
+b {
+	font-weight: 700;
+}
+a {
+	color: var(--link);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 2px;
+}
+a:hover {
+	color: var(--accent);
+}
+p {
+	margin-bottom: 1em;
+}
+.prose p {
+	margin-bottom: 1.5em;
+}
+textarea,
+input {
+	font-size: 16px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th,
+td {
+	border: 1px solid var(--border);
+	padding: 0.5em 0.7em;
+	text-align: left;
+}
+th {
+	background: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+code {
+	padding: 2px 5px;
+	background-color: color-mix(in srgb, var(--muted) 18%, transparent);
+	border-radius: 3px;
+	font-size: 0.9em;
+}
+pre {
+	padding: 1.5em;
+	border-radius: 8px;
+}
+pre > code {
+	all: unset;
+}
+blockquote {
+	border-left: 4px solid var(--accent);
+	padding: 0 0 0 20px;
+	margin: 0;
+	font-size: 1.15em;
+	color: var(--muted);
+}
+hr {
+	border: none;
+	border-top: 1px solid var(--border);
+}
+
+/* ---- Componentes da marca ---- */
+
+/* Botão/link de afiliado: o elemento de maior ênfase (âmbar). */
+.btn-afiliado {
+	display: inline-block;
+	background: var(--accent);
+	color: var(--accent-ink);
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.6em 1.2em;
+	border-radius: 999px;
+	transition: transform 0.15s ease, filter 0.15s ease;
+}
+.btn-afiliado:hover {
+	color: var(--accent-ink);
+	filter: brightness(1.05);
+	transform: translateY(-1px);
+}
+
+/* Nota de divulgação de afiliado. */
+.afiliado-nota {
+	font-size: 0.85em;
+	color: var(--muted);
+	border-top: 1px dashed var(--border);
+	padding-top: 1em;
+	margin-top: 2em;
+}
+
+/* Slot de anúncio (estrutura pronta, ligar só com tráfego). */
+.rc-ad {
+	border: 1px dashed var(--border);
+	border-radius: 8px;
+	min-height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--muted);
+	font-size: 0.75em;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin: 2em 0;
+}
+
+/* Selo de pilar. */
+.pilar-badge {
+	display: inline-block;
+	background: var(--accent);
+	color: var(--accent-ink);
+	font: 700 0.65rem/1 var(--font-body), sans-serif;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+	padding: 0.35em 0.7em;
+	border-radius: 999px;
+}
+
+@media (max-width: 720px) {
+	body {
+		font-size: 17px;
+	}
+	main {
+		padding: 1.5em 1em;
+	}
+	h1 {
+		font-size: 2.1em;
+	}
+	h2 {
+		font-size: 1.6em;
+	}
+}
+
+.sr-only {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	white-space: nowrap;
+}

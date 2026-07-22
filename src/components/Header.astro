@@ -1,0 +1,88 @@
+---
+import { SITE_TITLE, PILLARS } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav>
+		<a class="brand" href="/">
+			<svg class="mark" width="30" height="30" viewBox="0 0 34 34" aria-hidden="true">
+				<circle cx="17" cy="17" r="15.5" fill="none" stroke="currentColor" stroke-width="2"></circle>
+				<path d="M17 6 L21 17 L17 28 L13 17 Z" fill="currentColor"></path>
+				<path d="M17 6 L21 17 L17 17 Z" fill="var(--accent)"></path>
+				<circle cx="17" cy="17" r="2.4" fill="var(--surface)" stroke="currentColor" stroke-width="1.4"
+				></circle>
+			</svg>
+			<span class="wordmark">{SITE_TITLE}</span>
+		</a>
+		<div class="links">
+			{PILLARS.map((p) => (
+				<HeaderLink class="nav-link" href={`/${p.slug}`}>
+					{p.label}
+				</HeaderLink>
+			))}
+			<HeaderLink class="nav-link" href="/sobre">Sobre</HeaderLink>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		background: var(--surface);
+		border-bottom: 1px solid var(--border);
+	}
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.25em 1em;
+		max-width: 1100px;
+		margin: 0 auto;
+		padding: 0.6em 1em;
+	}
+	.brand {
+		display: flex;
+		align-items: center;
+		gap: 0.5em;
+		color: var(--heading);
+		text-decoration: none;
+		margin-right: auto;
+	}
+	.mark {
+		flex: none;
+	}
+	.wordmark {
+		font-family: var(--font-heading), Georgia, serif;
+		font-weight: 700;
+		font-size: 1.35em;
+		letter-spacing: -0.3px;
+	}
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	nav :global(a.nav-link) {
+		padding: 0.5em 0.55em;
+		color: var(--text);
+		border-bottom: 3px solid transparent;
+		text-decoration: none;
+		font-size: 0.95rem;
+	}
+	nav :global(a.nav-link:hover) {
+		color: var(--link);
+	}
+	nav :global(a.nav-link.active) {
+		border-bottom-color: var(--accent);
+		color: var(--heading);
+	}
+	@media (max-width: 720px) {
+		.brand {
+			margin-right: 0;
+			width: 100%;
+			margin-bottom: 0.3em;
+		}
+		.links {
+			font-size: 0.9rem;
+		}
+	}
+</style>

@@ -1,0 +1,158 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import { SITE_DESCRIPTION, SITE_TITLE, PILLARS } from '../consts';
+
+const pillarBlurb: Record<string, string> = {
+	destinos: 'Roteiros e guias para viajar sem errar.',
+	equipamentos: 'Câmeras, mochilas e gear testados na prática.',
+	conectividade: 'eSIM, apps e gadgets para ficar sempre online.',
+	financas: 'Como economizar e não passar aperto no exterior.',
+	ia: 'Use inteligência artificial para planejar melhor.',
+};
+
+const posts = (await getCollection('blog', ({ data }) => import.meta.env.PROD ? !data.draft : true))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 3);
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="hero">
+				<h1>Viaje melhor com escolhas certeiras</h1>
+				<p>
+					Roteiros, equipamentos, conectividade, finanças e IA para a sua viagem — reunidos num só
+					lugar, para você decidir certo em cada etapa.
+				</p>
+			</section>
+
+			<section aria-label="Pilares" class="pillars">
+				{
+					PILLARS.map((p) => (
+						<a class="pillar-card" href={`/${p.slug}`}>
+							<span class="pillar-name">{p.label}</span>
+							<span class="pillar-blurb">{pillarBlurb[p.slug]}</span>
+						</a>
+					))
+				}
+			</section>
+
+			{
+				posts.length > 0 && (
+					<section class="latest">
+						<h2>Últimos artigos</h2>
+						<ul>
+							{posts.map((post) => (
+								<li>
+									<a href={`/blog/${post.id}/`}>
+										<span class="pilar-badge">{post.data.pillar}</span>
+										<span class="t">{post.data.title}</span>
+										<span class="d">
+											<FormattedDate date={post.data.pubDate} />
+										</span>
+									</a>
+								</li>
+							))}
+						</ul>
+						<p><a href="/blog">Ver todos os artigos →</a></p>
+					</section>
+				)
+			}
+		</main>
+		<Footer />
+	</body>
+</html>
+<style>
+	.hero {
+		padding: 1.5em 0 0.5em;
+	}
+	.hero h1 {
+		font-size: 2.8em;
+		max-width: 12ch;
+	}
+	.hero p {
+		font-size: 1.15em;
+		color: var(--muted);
+		max-width: 55ch;
+	}
+	.pillars {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		gap: 1em;
+		margin: 2em 0 3em;
+	}
+	.pillar-card {
+		display: flex;
+		flex-direction: column;
+		gap: 0.3em;
+		padding: 1.1em;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 12px;
+		text-decoration: none;
+		transition: transform 0.15s ease, box-shadow 0.15s ease;
+	}
+	.pillar-card:hover {
+		transform: translateY(-2px);
+		box-shadow: var(--box-shadow);
+	}
+	.pillar-name {
+		font-family: var(--font-heading), Georgia, serif;
+		font-weight: 700;
+		font-size: 1.15em;
+		color: var(--heading);
+	}
+	.pillar-blurb {
+		font-size: 0.9em;
+		color: var(--muted);
+	}
+	.latest ul {
+		list-style: none;
+		padding: 0;
+		margin: 1em 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.6em;
+	}
+	.latest li a {
+		display: flex;
+		align-items: center;
+		gap: 0.8em;
+		padding: 0.8em 1em;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 10px;
+		text-decoration: none;
+		color: var(--text);
+	}
+	.latest li a:hover {
+		border-color: var(--accent);
+	}
+	.latest .t {
+		font-weight: 600;
+		flex: 1;
+	}
+	.latest .d {
+		color: var(--muted);
+		font-size: 0.85em;
+		white-space: nowrap;
+	}
+	@media (max-width: 720px) {
+		.hero h1 {
+			font-size: 2.1em;
+		}
+		.latest li a {
+			flex-wrap: wrap;
+			gap: 0.4em;
+		}
+	}
+</style>

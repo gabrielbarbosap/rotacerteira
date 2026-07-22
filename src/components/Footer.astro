@@ -1,0 +1,64 @@
+---
+import { SITE_TITLE, PILLARS } from '../consts';
+const today = new Date();
+---
+
+<footer>
+	<div class="cols">
+		<div class="brand-col">
+			<strong>{SITE_TITLE}</strong>
+			<p>Viaje melhor com escolhas certeiras.</p>
+		</div>
+		<nav class="foot-links" aria-label="Pilares">
+			{PILLARS.map((p) => <a href={`/${p.slug}`}>{p.label}</a>)}
+		</nav>
+	</div>
+	<p class="legal">
+		&copy; {today.getFullYear()} {SITE_TITLE}. Alguns links são de afiliado — se você comprar por
+		eles, o site pode receber uma comissão, sem custo extra para você.
+	</p>
+</footer>
+<style>
+	footer {
+		background: var(--surface);
+		border-top: 1px solid var(--border);
+		color: var(--muted);
+		padding: 2.5em 1em 3em;
+	}
+	.cols {
+		max-width: 1100px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1.5em 3em;
+		justify-content: space-between;
+	}
+	.brand-col strong {
+		color: var(--heading);
+		font-family: var(--font-heading), Georgia, serif;
+		font-size: 1.1em;
+	}
+	.brand-col p {
+		margin: 0.3em 0 0;
+	}
+	.foot-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4em 1.2em;
+		align-items: center;
+	}
+	.foot-links a {
+		color: var(--muted);
+		text-decoration: none;
+	}
+	.foot-links a:hover {
+		color: var(--link);
+	}
+	.legal {
+		max-width: 1100px;
+		margin: 2em auto 0;
+		font-size: 0.8em;
+		border-top: 1px solid var(--border);
+		padding-top: 1.2em;
+	}
+</style>

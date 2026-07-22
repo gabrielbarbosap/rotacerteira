@@ -1,0 +1,13 @@
+{
+	"_doc": "Mapa central de afiliados. A skill de copywriter escreve placeholders [AFILIADO: Rede — Produto]; o pipeline resolve pelo campo 'key'. Cadastre o link real uma vez e ele vale em todos os artigos. rel sempre 'sponsored nofollow'. subid={slug} para rastrear qual artigo converteu.",
+	"redes_ativas": ["GetYourGuide", "Seguros Promo", "Mercado Livre", "Shopee"],
+	"links": {
+		"exemplo-getyourguide-londres": {
+			"rede": "GetYourGuide",
+			"produto": "passeios em Londres",
+			"url": "https://SEU-LINK-DE-AFILIADO?subid={slug}",
+			"cupom": "",
+			"rel": "sponsored nofollow"
+		}
+	}
+}

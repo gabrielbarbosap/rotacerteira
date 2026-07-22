@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<Layout
+	title={`Sobre o ${SITE_TITLE}`}
+	description="O Rota Certeira é um portal sobre viajar melhor com escolhas certeiras — reunindo destinos, equipamentos, conectividade, finanças e IA."
+	pubDate={new Date('2026-07-22')}
+>
+	<p>
+		O <strong>Rota Certeira</strong> nasceu de uma ideia simples: viajar bem depende de fazer as
+		escolhas certas — do roteiro à câmera, do chip ao seguro. Reunimos tudo isso num só lugar para
+		você não precisar caçar informação espalhada pela internet.
+	</p>
+	<p>Aqui você encontra cinco frentes que conversam entre si:</p>
+	<ul>
+		<li><strong>Destinos &amp; Roteiros</strong> — guias práticos para planejar sem errar.</li>
+		<li><strong>Equipamentos</strong> — o que realmente vale levar, sem gastar demais.</li>
+		<li><strong>Conectividade</strong> — como ficar online em qualquer lugar.</li>
+		<li><strong>Finanças de Viagem</strong> — economizar e não passar aperto no exterior.</li>
+		<li><strong>IA para Viajar</strong> — usar tecnologia para planejar melhor.</li>
+	</ul>
+	<p>
+		Nosso compromisso é ser honesto: recomendamos apenas o que consideramos a escolha certeira, e
+		sinalizamos com transparência quando um link é de afiliado.
+	</p>
+</Layout>
