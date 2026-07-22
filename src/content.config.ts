@@ -20,6 +20,9 @@ const blog = defineCollection({
 			pillar: z.enum(['destinos', 'equipamentos', 'conectividade', 'financas', 'ia']),
 			// Nome do cluster específico (ex: "Roteiros Europa").
 			cluster: z.string(),
+			// Cidade dos passeios (ex: "londres"): injeta a lista curada de
+			// passeios + o widget da GetYourGuide (ver src/data/passeios.json).
+			tourCity: z.string().optional(),
 			// Palavra-chave alvo de busca.
 			keyword: z.string().optional(),
 			// Rascunho: o pipeline entrega draft=true; o portão de revisão

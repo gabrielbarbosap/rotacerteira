@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Europa'
 keyword: 'roteiro londres 5 dias'
 author: 'Gabriel Barbosa'
+tourCity: 'londres'
 draft: false
 ---
 
@@ -47,12 +48,6 @@ Um dos passeios mais pedidos de Londres é o bate-volta ao **Stonehenge**, o cí
 ## Dia 5 — Mercados, parques e compras
 
 Feche a viagem no ritmo da cidade: o **Borough Market** para comer bem, o **Camden Market** para garimpar, e uma pausa no **Hyde Park**. Se sobrar energia, a vista do alto do **Sky Garden** é gratuita (reserve com antecedência).
-
-## Passeios e ingressos em Londres (sem fila)
-
-Muita coisa em Londres tem fila — e comprar o ingresso ou o tour com antecedência economiza horas. Os passeios abaixo são da GetYourGuide, uma das maiores e mais confiáveis plataformas de passeios e ingressos do mundo, com avaliações reais de viajantes e cancelamento flexível na maioria das atividades:
-
-<div data-gyg-widget="auto" data-gyg-partner-id="AWKZZM8" data-gyg-cmp="Londres"></div>
 
 ## Quanto custa
 

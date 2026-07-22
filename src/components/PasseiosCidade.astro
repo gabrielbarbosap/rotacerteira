@@ -1,0 +1,84 @@
+---
+import passeios from '../data/passeios.json';
+
+interface Props {
+	city: string;
+}
+
+const { city } = Astro.props;
+const cidades = passeios.cidades as Record<
+	string,
+	{ label: string; gygCampaign: string; tours: { titulo: string; url: string }[] }
+>;
+const data = cidades[city];
+const partnerId = passeios.partnerId;
+---
+
+{
+	data && (
+		<section class="passeios">
+			<h2 class="section-title">Passeios e ingressos em {data.label}</h2>
+			<p>
+				Reservar com antecedência evita filas. Estes passeios são da GetYourGuide, uma das maiores e
+				mais confiáveis plataformas de passeios e ingressos do mundo, com avaliações reais de
+				viajantes e cancelamento flexível na maioria das atividades.
+			</p>
+			{data.tours.length > 0 && (
+				<ul class="passeios-list">
+					{data.tours.map((t) => (
+						<li>
+							<a href={t.url} target="_blank" rel="sponsored nofollow noopener">
+								<span class="tour-titulo">{t.titulo}</span>
+								<span class="tour-seta">Ver disponibilidade →</span>
+							</a>
+						</li>
+					))}
+				</ul>
+			)}
+			<div data-gyg-widget="auto" data-gyg-partner-id={partnerId} data-gyg-cmp={data.gygCampaign} />
+		</section>
+	)
+}
+
+<style>
+	.passeios {
+		margin: 2.5em 0;
+	}
+	.passeios-list {
+		list-style: none;
+		padding: 0;
+		margin: 1em 0 1.5em;
+		display: flex;
+		flex-direction: column;
+		gap: 0.6em;
+	}
+	.passeios-list li a {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.4em 1em;
+		padding: 0.9em 1.1em;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-left: 3px solid var(--accent);
+		border-radius: 10px;
+		text-decoration: none;
+	}
+	.passeios-list li a:hover {
+		border-color: var(--accent);
+	}
+	.tour-titulo {
+		font-weight: 600;
+		color: var(--heading);
+	}
+	.tour-seta {
+		color: var(--accent-ink);
+		background: var(--accent);
+		font-weight: 700;
+		font-size: 0.85rem;
+		padding: 0.35em 0.8em;
+		border-radius: 999px;
+		white-space: nowrap;
+	}
+</style>

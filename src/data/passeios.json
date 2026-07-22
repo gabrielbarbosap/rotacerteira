@@ -1,0 +1,16 @@
+{
+	"_doc": "Passeios curados por cidade (GetYourGuide). Todo post com 'tourCity: <cidade>' no frontmatter recebe automaticamente esta lista + o widget da GYG. Adicione um link uma vez e ele aparece em todos os posts daquela cidade.",
+	"partnerId": "AWKZZM8",
+	"cidades": {
+		"londres": {
+			"label": "Londres",
+			"gygCampaign": "Londres",
+			"tours": [
+				{
+					"titulo": "Stonehenge: excursão matinal saindo de Londres",
+					"url": "https://gyg.me/ch8237ce"
+				}
+			]
+		}
+	}
+}

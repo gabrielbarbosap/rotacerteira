@@ -7,6 +7,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import PasseiosCidade from '../components/PasseiosCidade.astro';
 import { PILLARS } from '../consts';
 
 interface Props {
@@ -17,6 +18,7 @@ interface Props {
 	heroImage?: import('astro').ImageMetadata;
 	pillar?: string;
 	author?: string;
+	tourCity?: string;
 	headings?: MarkdownHeading[];
 	related?: CollectionEntry<'blog'>[];
 }
@@ -29,6 +31,7 @@ const {
 	heroImage,
 	pillar,
 	author = 'Gabriel Barbosa',
+	tourCity,
 	headings = [],
 	related = [],
 } = Astro.props;
@@ -93,6 +96,8 @@ const shareHref = {
 					<div class="content">
 						<slot />
 					</div>
+
+					{tourCity && <PasseiosCidade city={tourCity} />}
 
 					<div class="share">
 						<span>Compartilhar:</span>
