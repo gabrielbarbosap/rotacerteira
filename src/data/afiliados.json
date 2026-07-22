@@ -1,13 +1,19 @@
 {
 	"_doc": "Mapa central de afiliados. A skill de copywriter escreve placeholders [AFILIADO: Rede — Produto]; o pipeline resolve pelo campo 'key'. Cadastre o link real uma vez e ele vale em todos os artigos. rel sempre 'sponsored nofollow'. subid={slug} para rastrear qual artigo converteu.",
 	"redes_ativas": ["GetYourGuide", "Seguros Promo", "Mercado Livre", "Shopee"],
+	"getyourguide": {
+		"partner_id": "AWKZZM8",
+		"analytics_script": "Já incluído no <head> global via src/components/BaseHead.astro.",
+		"widget_snippet": "<div data-gyg-widget=\"auto\" data-gyg-partner-id=\"AWKZZM8\" data-gyg-cmp=\"NOME_DA_CAMPANHA\"></div>",
+		"widget_doc": "Cole o snippet do widget no corpo do artigo onde os passeios devem aparecer. Troque data-gyg-cmp pelo nome da cidade/campanha (ex: Londres, Paris). O widget lista passeios automaticamente."
+	},
 	"links": {
-		"exemplo-getyourguide-londres": {
+		"getyourguide-stonehenge-londres": {
 			"rede": "GetYourGuide",
-			"produto": "passeios em Londres",
-			"url": "https://SEU-LINK-DE-AFILIADO?subid={slug}",
+			"produto": "Stonehenge: excursão matinal saindo de Londres",
+			"url": "https://gyg.me/ch8237ce",
 			"cupom": "",
-			"rel": "sponsored nofollow"
+			"rel": "sponsored nofollow noopener"
 		}
 	}
 }
