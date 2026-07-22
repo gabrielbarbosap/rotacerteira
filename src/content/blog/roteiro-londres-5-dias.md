@@ -24,7 +24,7 @@ Três coisas resolvidas em casa evitam dor de cabeça lá:
 
 ## Dia 1 — Westminster e o centro histórico
 
-Comece pelo cartão-postal: **Big Ben**, o **Parlamento** e a **Abadia de Westminster**. Atravesse a ponte para uma foto clássica e siga a pé até a **London Eye**. À tarde, caminhe pelo **St. James's Park** até o **Palácio de Buckingham**. É um dia de andar bastante, então calce um tênis confortável.
+Comece pelo cartão-postal: **Big Ben**, o **Parlamento** e a **Abadia de Westminster**. Atravesse a ponte para uma foto clássica e siga a pé até a **London Eye** — uma forma prática de emendar vários pontos num só dia é o combo <a href="https://www.getyourguide.pt/londres-l57/london-eye-e-big-bus-hop-on-hop-off-com-cruzeiro-fluvial-t292175/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">London Eye + ônibus turístico Big Bus com cruzeiro no Tâmisa</a>. À tarde, caminhe pelo **St. James's Park** até o **Palácio de Buckingham**; para conhecer por dentro, garanta com antecedência o <a href="https://www.getyourguide.pt/londres-l57/bilhete-de-entrada-para-os-state-rooms-do-palacio-de-buckingham-t53844/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">ingresso para os State Rooms</a>. É um dia de andar bastante, então calce um tênis confortável.
 
 ## Dia 2 — Museus e South Bank
 
@@ -32,7 +32,7 @@ Londres tem alguns dos **melhores museus do mundo, com entrada gratuita**: o **B
 
 ## Dia 3 — Torre de Londres e o leste
 
-Reserve a manhã para a **Torre de Londres** e as Joias da Coroa — compre o ingresso antecipado para pular a fila. Ao lado fica a **Tower Bridge**. À tarde, conheça o clima descolado de **Shoreditch**, com seus murais de arte urbana e cafés.
+Reserve a manhã para a **Torre de Londres** e as Joias da Coroa — <a href="https://www.getyourguide.pt/londres-l57/londres-bilhete-para-a-torre-de-londres-e-exposicao-das-joias-da-coroa-t21253/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">garanta o ingresso antecipado</a> para pular a fila. Ao lado fica a **Tower Bridge**. À tarde, conheça o clima descolado de **Shoreditch**, com seus murais de arte urbana e cafés.
 
 ## Dia 4 — Bate-volta a Stonehenge
 
@@ -45,9 +45,22 @@ Um dos passeios mais pedidos de Londres é o bate-volta ao **Stonehenge**, o cí
 	<a class="btn-afiliado" href="https://gyg.me/ch8237ce" target="_blank" rel="sponsored nofollow noopener">Ver disponibilidade →</a>
 </div>
 
+Quer render ainda mais o dia? Há a opção de <a href="https://www.getyourguide.pt/londres-l57/excursao-de-um-dia-a-windsor-oxford-e-stonehenge-a-partir-de-londres-t18405/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">excursão de dia inteiro que junta Windsor, Oxford e Stonehenge</a> — perfeita para quem quer ver mais em uma só viagem.
+
 ## Dia 5 — Mercados, parques e compras
 
 Feche a viagem no ritmo da cidade: o **Borough Market** para comer bem, o **Camden Market** para garimpar, e uma pausa no **Hyde Park**. Se sobrar energia, a vista do alto do **Sky Garden** é gratuita (reserve com antecedência).
+
+## Bônus: o Estúdio do Harry Potter
+
+Se você é fã — ou viaja com quem é — o **Warner Bros. Studio Tour**, onde os filmes foram gravados, vale um dia à parte. Fica fora de Londres e costuma esgotar, então reserve cedo.
+
+<div class="produto-rec">
+	<span class="produto-rec__tag">Passeio recomendado</span>
+	<strong class="produto-rec__nome">Estúdio do Harry Potter (Warner Bros.) com transfer</strong>
+	<p class="produto-rec__motivo">Inclui o transporte de ida e volta de Londres — você não se preocupa com trem nem conexão. É um dos passeios que mais esgotam, então garanta a data com antecedência.</p>
+	<a class="btn-afiliado" href="https://www.getyourguide.pt/londres-l57/londres-visita-ao-warner-bros-studio-harry-potter-com-transfers-t505308/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">Ver disponibilidade →</a>
+</div>
 
 ## Quanto custa
 

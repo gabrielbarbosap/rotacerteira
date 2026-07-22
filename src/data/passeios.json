@@ -1,5 +1,5 @@
 {
-	"_doc": "Passeios curados por cidade (GetYourGuide). Todo post com 'tourCity: <cidade>' no frontmatter recebe automaticamente esta lista + o widget da GYG. Adicione um link uma vez e ele aparece em todos os posts daquela cidade.",
+	"_doc": "Biblioteca curada de passeios por cidade (GetYourGuide). NÃO listar todos mecanicamente num artigo: use como referência para inserir os passeios que fazem sentido no contexto de cada matéria (venda agradável). A seção automática de um post com 'tourCity: <cidade>' mostra o reforço de confiança + o widget da GYG (que já cobre a variedade). partnerId AWKZZM8.",
 	"partnerId": "AWKZZM8",
 	"cidades": {
 		"londres": {
@@ -9,6 +9,42 @@
 				{
 					"titulo": "Stonehenge: excursão matinal saindo de Londres",
 					"url": "https://gyg.me/ch8237ce"
+				},
+				{
+					"titulo": "Windsor, Oxford e Stonehenge: excursão de um dia",
+					"url": "https://www.getyourguide.pt/londres-l57/excursao-de-um-dia-a-windsor-oxford-e-stonehenge-a-partir-de-londres-t18405/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Torre de Londres e Joias da Coroa: ingresso",
+					"url": "https://www.getyourguide.pt/londres-l57/londres-bilhete-para-a-torre-de-londres-e-exposicao-das-joias-da-coroa-t21253/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "London Eye + Big Bus (hop-on hop-off) com cruzeiro no Tâmisa",
+					"url": "https://www.getyourguide.pt/londres-l57/london-eye-e-big-bus-hop-on-hop-off-com-cruzeiro-fluvial-t292175/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Estúdio Harry Potter (Warner Bros.) com transfer",
+					"url": "https://www.getyourguide.pt/londres-l57/londres-visita-ao-warner-bros-studio-harry-potter-com-transfers-t505308/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Palácio de Buckingham: ingresso para os State Rooms",
+					"url": "https://www.getyourguide.pt/londres-l57/bilhete-de-entrada-para-os-state-rooms-do-palacio-de-buckingham-t53844/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Catedral de São Paulo + passeio de barco no Tâmisa",
+					"url": "https://www.getyourguide.pt/londres-l57/londres-catedral-de-sao-paulo-e-passeio-de-barco-de-ida-no-tamisa-t1406621/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Passeio de barco de Westminster a Greenwich",
+					"url": "https://www.getyourguide.pt/londres-l57/passeio-de-barco-turistico-de-westminster-a-greenwich-t71379/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "City tour em ônibus vintage de teto aberto",
+					"url": "https://www.getyourguide.pt/londres-l57/londres-passeio-turistico-guiado-num-autocarro-vintage-de-topo-aberto-t685713/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Emirates Stadium (Arsenal FC): entrada + áudio-guia",
+					"url": "https://www.getyourguide.pt/londres-l57/londres-arsenal-fc-entrada-no-emirates-stadium-e-guia-de-audio-t45135/?partner_id=AWKZZM8&utm_medium=online_publisher"
 				}
 			]
 		}
