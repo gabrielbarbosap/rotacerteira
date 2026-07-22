@@ -209,6 +209,54 @@ hr {
 	margin: 0.4em 0 1em;
 }
 
+/* Card de produto (Mercado Livre / loja) — imagem + nome + botão. */
+.produto-ml {
+	display: flex;
+	gap: 1.1em;
+	align-items: center;
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	background: var(--surface);
+	padding: 1em 1.1em;
+	margin: 2em 0;
+}
+.produto-ml__img {
+	width: 120px;
+	height: 120px;
+	object-fit: contain;
+	border-radius: 8px;
+	background: #fff;
+	flex: none;
+}
+.produto-ml__body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.5em;
+}
+.produto-ml__tag {
+	font: 700 0.65rem/1 var(--font-body), sans-serif;
+	letter-spacing: 0.4px;
+	text-transform: uppercase;
+	color: var(--muted);
+}
+.produto-ml__nome {
+	font-family: var(--font-heading), Georgia, serif;
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: var(--heading);
+	line-height: 1.25;
+}
+@media (max-width: 520px) {
+	.produto-ml__img {
+		width: 90px;
+		height: 90px;
+	}
+	.produto-ml__nome {
+		font-size: 1rem;
+	}
+}
+
 /* Nota de divulgação de afiliado. */
 .afiliado-nota {
 	font-size: 0.85em;
