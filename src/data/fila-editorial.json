@@ -13,7 +13,10 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "roteiro londres 5 dias",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide", "Seguros Promo"],
+				"afiliados": [
+					"GetYourGuide",
+					"Seguros Promo"
+				],
 				"onda": 1,
 				"status": "publicado"
 			},
@@ -26,7 +29,10 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "roteiro londres 3 dias",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide", "Seguros Promo"],
+				"afiliados": [
+					"GetYourGuide",
+					"Seguros Promo"
+				],
 				"onda": 1,
 				"status": "publicado"
 			},
@@ -39,7 +45,10 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "roteiro londres 7 dias",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide", "Seguros Promo"],
+				"afiliados": [
+					"GetYourGuide",
+					"Seguros Promo"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -52,9 +61,12 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "primeira vez em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide", "Seguros Promo"],
+				"afiliados": [
+					"GetYourGuide",
+					"Seguros Promo"
+				],
 				"onda": 1,
-				"status": "fila"
+				"status": "publicado"
 			},
 			{
 				"grupo": "Roteiros",
@@ -65,7 +77,9 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "londres em 1 dia",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -78,7 +92,10 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "londres fim de semana",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide", "Seguros Promo"],
+				"afiliados": [
+					"GetYourGuide",
+					"Seguros Promo"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -91,7 +108,10 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "londres com crianças",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide", "Seguros Promo"],
+				"afiliados": [
+					"GetYourGuide",
+					"Seguros Promo"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -104,7 +124,9 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "londres barato",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -117,7 +139,9 @@
 				"cluster": "Roteiros Londres",
 				"keyword": "londres romântico",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -129,7 +153,9 @@
 				"pillar": "destinos",
 				"cluster": "Logística Londres",
 				"keyword": "heathrow ao centro de londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -141,7 +167,9 @@
 				"pillar": "destinos",
 				"cluster": "Logística Londres",
 				"keyword": "gatwick ao centro de londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -177,7 +205,9 @@
 				"pillar": "destinos",
 				"cluster": "Logística Londres",
 				"keyword": "visto reino unido brasileiros",
-				"afiliados": ["Seguros Promo"],
+				"afiliados": [
+					"Seguros Promo"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -189,7 +219,9 @@
 				"pillar": "financas",
 				"cluster": "Seguro viagem",
 				"keyword": "seguro viagem reino unido",
-				"afiliados": ["Seguros Promo"],
+				"afiliados": [
+					"Seguros Promo"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -201,7 +233,9 @@
 				"pillar": "conectividade",
 				"cluster": "eSIM",
 				"keyword": "internet em londres esim",
-				"afiliados": ["Shopee"],
+				"afiliados": [
+					"Shopee"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -213,7 +247,9 @@
 				"pillar": "destinos",
 				"cluster": "Logística Londres",
 				"keyword": "melhor época para visitar londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -225,7 +261,10 @@
 				"pillar": "equipamentos",
 				"cluster": "Mala e organização",
 				"keyword": "o que levar na mala para londres",
-				"afiliados": ["Mercado Livre", "Shopee"],
+				"afiliados": [
+					"Mercado Livre",
+					"Shopee"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -263,7 +302,9 @@
 				"cluster": "O que fazer em Londres",
 				"keyword": "o que fazer em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -276,7 +317,9 @@
 				"cluster": "O que fazer em Londres",
 				"keyword": "atrações gratuitas em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -289,7 +332,9 @@
 				"cluster": "O que fazer em Londres",
 				"keyword": "museus de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -302,7 +347,9 @@
 				"cluster": "O que fazer em Londres",
 				"keyword": "mercados de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -327,7 +374,9 @@
 				"cluster": "O que fazer em Londres",
 				"keyword": "melhores vistas de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -340,7 +389,9 @@
 				"cluster": "O que fazer em Londres",
 				"keyword": "o que fazer à noite em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -353,7 +404,9 @@
 				"cluster": "Gastronomia Londres",
 				"keyword": "onde comer em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -366,7 +419,9 @@
 				"cluster": "Gastronomia Londres",
 				"keyword": "pubs de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -379,7 +434,9 @@
 				"cluster": "Passeios Londres",
 				"keyword": "passeios em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -392,7 +449,9 @@
 				"cluster": "Passeios Londres",
 				"keyword": "london pass vale a pena",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -405,7 +464,9 @@
 				"cluster": "Passeios Londres",
 				"keyword": "torre de londres ingresso",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -418,7 +479,9 @@
 				"cluster": "Passeios Londres",
 				"keyword": "london eye vale a pena",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -431,7 +494,9 @@
 				"cluster": "Passeios Londres",
 				"keyword": "estúdio harry potter londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -444,7 +509,9 @@
 				"cluster": "Passeios Londres",
 				"keyword": "palácio de buckingham visita",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -457,7 +524,9 @@
 				"cluster": "Passeios Londres",
 				"keyword": "ônibus turístico londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -470,7 +539,9 @@
 				"cluster": "Bate-voltas Londres",
 				"keyword": "bate volta saindo de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -483,7 +554,9 @@
 				"cluster": "Bate-voltas Londres",
 				"keyword": "stonehenge saindo de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -496,7 +569,9 @@
 				"cluster": "Bate-voltas Londres",
 				"keyword": "windsor saindo de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -509,7 +584,9 @@
 				"cluster": "Bate-voltas Londres",
 				"keyword": "bath saindo de londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -522,7 +599,9 @@
 				"cluster": "Bate-voltas Londres",
 				"keyword": "oxford ou cambridge",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -535,7 +614,9 @@
 				"cluster": "Londres temático",
 				"keyword": "londres harry potter",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -548,7 +629,9 @@
 				"cluster": "Londres temático",
 				"keyword": "futebol em londres estádios",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -573,7 +656,9 @@
 				"cluster": "Londres sazonal",
 				"keyword": "londres no natal",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila",
 				"nota": "Publicar até outubro para pegar a busca da temporada."
@@ -587,7 +672,10 @@
 				"cluster": "Londres sazonal",
 				"keyword": "londres no inverno",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide", "Mercado Livre"],
+				"afiliados": [
+					"GetYourGuide",
+					"Mercado Livre"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -600,7 +688,9 @@
 				"cluster": "Londres sazonal",
 				"keyword": "réveillon em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 3,
 				"status": "fila"
 			},
@@ -612,7 +702,9 @@
 				"pillar": "financas",
 				"cluster": "Custos de viagem",
 				"keyword": "quanto custa viajar para londres",
-				"afiliados": ["Seguros Promo"],
+				"afiliados": [
+					"Seguros Promo"
+				],
 				"onda": 1,
 				"status": "fila"
 			},
@@ -625,7 +717,9 @@
 				"cluster": "Custos de viagem",
 				"keyword": "como economizar em londres",
 				"tourCity": "londres",
-				"afiliados": ["GetYourGuide"],
+				"afiliados": [
+					"GetYourGuide"
+				],
 				"onda": 2,
 				"status": "fila"
 			},
@@ -637,7 +731,10 @@
 				"pillar": "destinos",
 				"cluster": "Comparativos Europa",
 				"keyword": "londres ou paris",
-				"afiliados": ["GetYourGuide", "Seguros Promo"],
+				"afiliados": [
+					"GetYourGuide",
+					"Seguros Promo"
+				],
 				"onda": 3,
 				"status": "fila"
 			}
