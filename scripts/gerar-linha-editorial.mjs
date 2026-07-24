@@ -119,6 +119,23 @@ const destinos = DESTINOS.map((dest) => {
 			status: 'fila',
 		};
 	});
+
+	// Post de futebol (estádios/tours) — destinos da Europa.
+	if (dest.regiao === 'Europa') {
+		const s = `futebol-em-${d}`;
+		posts.push({
+			slug: s,
+			titulo: `Futebol em ${dest.nome}: estádios, tours e como ver um jogo`,
+			grupo: 'Nichos',
+			tipo: 'guia',
+			pillar: 'destinos',
+			cluster: `Nichos ${dest.nome}`,
+			keyword: `futebol em ${dest.nome.toLowerCase()}`,
+			tourCity: d,
+			afiliados: ['GetYourGuide'],
+			status: 'fila',
+		});
+	}
 	return {
 		slug: d,
 		nome: dest.nome,

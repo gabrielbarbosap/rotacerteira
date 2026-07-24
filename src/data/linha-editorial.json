@@ -4,7 +4,7 @@
 	"resumo": {
 		"destinos": 20,
 		"posts_por_destino_min": 21,
-		"total_posts": 431
+		"total_posts": 438
 	},
 	"destinos": [
 		{
@@ -14,7 +14,7 @@
 			"pais": "França",
 			"tipo": "internacional",
 			"template": "cidade-internacional",
-			"posts_previstos": 22,
+			"posts_previstos": 23,
 			"posts": [
 				{
 					"slug": "roteiro-paris-3-dias",
@@ -316,6 +316,20 @@
 						"Seguros Promo"
 					],
 					"status": "fila"
+				},
+				{
+					"slug": "futebol-em-paris",
+					"titulo": "Futebol em Paris: estádios, tours e como ver um jogo",
+					"grupo": "Nichos",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Nichos Paris",
+					"keyword": "futebol em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
 				}
 			]
 		},
@@ -326,7 +340,7 @@
 			"pais": "Itália",
 			"tipo": "internacional",
 			"template": "cidade-internacional",
-			"posts_previstos": 22,
+			"posts_previstos": 23,
 			"posts": [
 				{
 					"slug": "roteiro-roma-3-dias",
@@ -628,6 +642,20 @@
 						"Seguros Promo"
 					],
 					"status": "fila"
+				},
+				{
+					"slug": "futebol-em-roma",
+					"titulo": "Futebol em Roma: estádios, tours e como ver um jogo",
+					"grupo": "Nichos",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Nichos Roma",
+					"keyword": "futebol em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
 				}
 			]
 		},
@@ -638,7 +666,7 @@
 			"pais": "Portugal",
 			"tipo": "internacional",
 			"template": "cidade-internacional",
-			"posts_previstos": 22,
+			"posts_previstos": 23,
 			"posts": [
 				{
 					"slug": "roteiro-lisboa-3-dias",
@@ -940,6 +968,20 @@
 						"Seguros Promo"
 					],
 					"status": "fila"
+				},
+				{
+					"slug": "futebol-em-lisboa",
+					"titulo": "Futebol em Lisboa: estádios, tours e como ver um jogo",
+					"grupo": "Nichos",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Nichos Lisboa",
+					"keyword": "futebol em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
 				}
 			]
 		},
@@ -950,7 +992,7 @@
 			"pais": "Espanha",
 			"tipo": "internacional",
 			"template": "cidade-internacional",
-			"posts_previstos": 22,
+			"posts_previstos": 23,
 			"posts": [
 				{
 					"slug": "roteiro-barcelona-3-dias",
@@ -1252,6 +1294,20 @@
 						"Seguros Promo"
 					],
 					"status": "fila"
+				},
+				{
+					"slug": "futebol-em-barcelona",
+					"titulo": "Futebol em Barcelona: estádios, tours e como ver um jogo",
+					"grupo": "Nichos",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Nichos Barcelona",
+					"keyword": "futebol em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
 				}
 			]
 		},
@@ -1262,7 +1318,7 @@
 			"pais": "Holanda",
 			"tipo": "internacional",
 			"template": "cidade-internacional",
-			"posts_previstos": 22,
+			"posts_previstos": 23,
 			"posts": [
 				{
 					"slug": "roteiro-amsterda-3-dias",
@@ -1564,6 +1620,20 @@
 						"Seguros Promo"
 					],
 					"status": "fila"
+				},
+				{
+					"slug": "futebol-em-amsterda",
+					"titulo": "Futebol em Amsterdã: estádios, tours e como ver um jogo",
+					"grupo": "Nichos",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Nichos Amsterdã",
+					"keyword": "futebol em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
 				}
 			]
 		},
@@ -1574,7 +1644,7 @@
 			"pais": "Espanha",
 			"tipo": "internacional",
 			"template": "cidade-internacional",
-			"posts_previstos": 22,
+			"posts_previstos": 23,
 			"posts": [
 				{
 					"slug": "roteiro-madri-3-dias",
@@ -1876,6 +1946,20 @@
 						"Seguros Promo"
 					],
 					"status": "fila"
+				},
+				{
+					"slug": "futebol-em-madri",
+					"titulo": "Futebol em Madri: estádios, tours e como ver um jogo",
+					"grupo": "Nichos",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Nichos Madri",
+					"keyword": "futebol em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
 				}
 			]
 		},
@@ -1886,7 +1970,7 @@
 			"pais": "República Tcheca",
 			"tipo": "internacional",
 			"template": "cidade-internacional",
-			"posts_previstos": 22,
+			"posts_previstos": 23,
 			"posts": [
 				{
 					"slug": "roteiro-praga-3-dias",
@@ -2186,6 +2270,20 @@
 					"tourCity": "praga",
 					"afiliados": [
 						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "futebol-em-praga",
+					"titulo": "Futebol em Praga: estádios, tours e como ver um jogo",
+					"grupo": "Nichos",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Nichos Praga",
+					"keyword": "futebol em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
 					],
 					"status": "fila"
 				}
