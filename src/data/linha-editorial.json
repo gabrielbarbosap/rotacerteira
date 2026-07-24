@@ -1,0 +1,5936 @@
+{
+	"_doc": "Linha editorial mestra. 20 destinos (Europa → internacional → Nordeste), cada um com um conjunto de arquétipos de post gerados por scripts/gerar-linha-editorial.mjs. Cada post vira uma matéria da skill rota-certeira-copywriter (mesmo fluxo da fila de Londres). Regenerar: node scripts/gerar-linha-editorial.mjs. Londres é o piloto já publicado (ver fila-editorial.json).",
+	"atualizado": "2026-07-24",
+	"resumo": {
+		"destinos": 20,
+		"posts_por_destino_min": 21,
+		"total_posts": 431
+	},
+	"destinos": [
+		{
+			"slug": "paris",
+			"nome": "Paris",
+			"regiao": "Europa",
+			"pais": "França",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-paris-3-dias",
+					"titulo": "Roteiro de Paris em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Paris",
+					"keyword": "roteiro de paris em 3 dias",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-paris-5-dias",
+					"titulo": "Roteiro de Paris em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Paris",
+					"keyword": "roteiro de paris em 5 dias",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-paris-7-dias",
+					"titulo": "Roteiro de Paris em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Paris",
+					"keyword": "roteiro de paris em 7 dias",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-paris",
+					"titulo": "Primeira vez em Paris: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Paris",
+					"keyword": "primeira vez em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "paris-com-criancas",
+					"titulo": "Paris com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Paris",
+					"keyword": "paris com crianças",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "paris-a-dois",
+					"titulo": "Paris a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Paris",
+					"keyword": "paris a dois",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-paris",
+					"titulo": "O que fazer em Paris: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Paris",
+					"keyword": "o que fazer em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-paris",
+					"titulo": "Principais pontos turísticos de Paris",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Paris",
+					"keyword": "principais pontos turísticos de paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-paris",
+					"titulo": "Atrações gratuitas em Paris",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Paris",
+					"keyword": "atrações gratuitas em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "paris-a-noite",
+					"titulo": "O que fazer à noite em Paris",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Paris",
+					"keyword": "o que fazer à noite em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-paris",
+					"titulo": "Os melhores passeios em Paris",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Paris",
+					"keyword": "os melhores passeios em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-paris",
+					"titulo": "Bate-voltas saindo de Paris",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Paris",
+					"keyword": "bate-voltas saindo de paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-paris",
+					"titulo": "Do aeroporto ao centro de Paris: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Paris",
+					"keyword": "do aeroporto ao centro de paris",
+					"tourCity": "paris",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-paris",
+					"titulo": "Transporte público em Paris: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Paris",
+					"keyword": "transporte público em paris",
+					"tourCity": "paris",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-paris",
+					"titulo": "Onde se hospedar em Paris: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Paris",
+					"keyword": "onde se hospedar em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-paris",
+					"titulo": "Onde comer em Paris",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Paris",
+					"keyword": "onde comer em paris",
+					"tourCity": "paris",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-paris",
+					"titulo": "Melhor época para visitar Paris",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Paris",
+					"keyword": "melhor época para visitar paris",
+					"tourCity": "paris",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-paris",
+					"titulo": "O que levar na mala para Paris",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Paris",
+					"keyword": "o que levar na mala para paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-paris-esim",
+					"titulo": "Internet em Paris: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Paris",
+					"keyword": "internet em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-paris",
+					"titulo": "Quanto custa viajar para Paris",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Paris",
+					"keyword": "quanto custa viajar para paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-paris",
+					"titulo": "Como economizar em Paris",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Paris",
+					"keyword": "como economizar em paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-paris",
+					"titulo": "Seguro viagem para Paris: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Paris",
+					"keyword": "seguro viagem para paris",
+					"tourCity": "paris",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "roma",
+			"nome": "Roma",
+			"regiao": "Europa",
+			"pais": "Itália",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-roma-3-dias",
+					"titulo": "Roteiro de Roma em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Roma",
+					"keyword": "roteiro de roma em 3 dias",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-roma-5-dias",
+					"titulo": "Roteiro de Roma em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Roma",
+					"keyword": "roteiro de roma em 5 dias",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-roma-7-dias",
+					"titulo": "Roteiro de Roma em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Roma",
+					"keyword": "roteiro de roma em 7 dias",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-roma",
+					"titulo": "Primeira vez em Roma: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Roma",
+					"keyword": "primeira vez em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roma-com-criancas",
+					"titulo": "Roma com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Roma",
+					"keyword": "roma com crianças",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roma-a-dois",
+					"titulo": "Roma a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Roma",
+					"keyword": "roma a dois",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-roma",
+					"titulo": "O que fazer em Roma: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Roma",
+					"keyword": "o que fazer em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-roma",
+					"titulo": "Principais pontos turísticos de Roma",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Roma",
+					"keyword": "principais pontos turísticos de roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-roma",
+					"titulo": "Atrações gratuitas em Roma",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Roma",
+					"keyword": "atrações gratuitas em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roma-a-noite",
+					"titulo": "O que fazer à noite em Roma",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Roma",
+					"keyword": "o que fazer à noite em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-roma",
+					"titulo": "Os melhores passeios em Roma",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Roma",
+					"keyword": "os melhores passeios em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-roma",
+					"titulo": "Bate-voltas saindo de Roma",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Roma",
+					"keyword": "bate-voltas saindo de roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-roma",
+					"titulo": "Do aeroporto ao centro de Roma: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Roma",
+					"keyword": "do aeroporto ao centro de roma",
+					"tourCity": "roma",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-roma",
+					"titulo": "Transporte público em Roma: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Roma",
+					"keyword": "transporte público em roma",
+					"tourCity": "roma",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-roma",
+					"titulo": "Onde se hospedar em Roma: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Roma",
+					"keyword": "onde se hospedar em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-roma",
+					"titulo": "Onde comer em Roma",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Roma",
+					"keyword": "onde comer em roma",
+					"tourCity": "roma",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-roma",
+					"titulo": "Melhor época para visitar Roma",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Roma",
+					"keyword": "melhor época para visitar roma",
+					"tourCity": "roma",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-roma",
+					"titulo": "O que levar na mala para Roma",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Roma",
+					"keyword": "o que levar na mala para roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-roma-esim",
+					"titulo": "Internet em Roma: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Roma",
+					"keyword": "internet em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-roma",
+					"titulo": "Quanto custa viajar para Roma",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Roma",
+					"keyword": "quanto custa viajar para roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-roma",
+					"titulo": "Como economizar em Roma",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Roma",
+					"keyword": "como economizar em roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-roma",
+					"titulo": "Seguro viagem para Roma: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Roma",
+					"keyword": "seguro viagem para roma",
+					"tourCity": "roma",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "lisboa",
+			"nome": "Lisboa",
+			"regiao": "Europa",
+			"pais": "Portugal",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-lisboa-3-dias",
+					"titulo": "Roteiro de Lisboa em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lisboa",
+					"keyword": "roteiro de lisboa em 3 dias",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-lisboa-5-dias",
+					"titulo": "Roteiro de Lisboa em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lisboa",
+					"keyword": "roteiro de lisboa em 5 dias",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-lisboa-7-dias",
+					"titulo": "Roteiro de Lisboa em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lisboa",
+					"keyword": "roteiro de lisboa em 7 dias",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-lisboa",
+					"titulo": "Primeira vez em Lisboa: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lisboa",
+					"keyword": "primeira vez em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "lisboa-com-criancas",
+					"titulo": "Lisboa com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lisboa",
+					"keyword": "lisboa com crianças",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "lisboa-a-dois",
+					"titulo": "Lisboa a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lisboa",
+					"keyword": "lisboa a dois",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-lisboa",
+					"titulo": "O que fazer em Lisboa: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Lisboa",
+					"keyword": "o que fazer em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-lisboa",
+					"titulo": "Principais pontos turísticos de Lisboa",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Lisboa",
+					"keyword": "principais pontos turísticos de lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-lisboa",
+					"titulo": "Atrações gratuitas em Lisboa",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Lisboa",
+					"keyword": "atrações gratuitas em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "lisboa-a-noite",
+					"titulo": "O que fazer à noite em Lisboa",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Lisboa",
+					"keyword": "o que fazer à noite em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-lisboa",
+					"titulo": "Os melhores passeios em Lisboa",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Lisboa",
+					"keyword": "os melhores passeios em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-lisboa",
+					"titulo": "Bate-voltas saindo de Lisboa",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Lisboa",
+					"keyword": "bate-voltas saindo de lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-lisboa",
+					"titulo": "Do aeroporto ao centro de Lisboa: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Lisboa",
+					"keyword": "do aeroporto ao centro de lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-lisboa",
+					"titulo": "Transporte público em Lisboa: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Lisboa",
+					"keyword": "transporte público em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-lisboa",
+					"titulo": "Onde se hospedar em Lisboa: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Lisboa",
+					"keyword": "onde se hospedar em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-lisboa",
+					"titulo": "Onde comer em Lisboa",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Lisboa",
+					"keyword": "onde comer em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-lisboa",
+					"titulo": "Melhor época para visitar Lisboa",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Lisboa",
+					"keyword": "melhor época para visitar lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-lisboa",
+					"titulo": "O que levar na mala para Lisboa",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Lisboa",
+					"keyword": "o que levar na mala para lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-lisboa-esim",
+					"titulo": "Internet em Lisboa: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Lisboa",
+					"keyword": "internet em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-lisboa",
+					"titulo": "Quanto custa viajar para Lisboa",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Lisboa",
+					"keyword": "quanto custa viajar para lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-lisboa",
+					"titulo": "Como economizar em Lisboa",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Lisboa",
+					"keyword": "como economizar em lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-lisboa",
+					"titulo": "Seguro viagem para Lisboa: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Lisboa",
+					"keyword": "seguro viagem para lisboa",
+					"tourCity": "lisboa",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "barcelona",
+			"nome": "Barcelona",
+			"regiao": "Europa",
+			"pais": "Espanha",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-barcelona-3-dias",
+					"titulo": "Roteiro de Barcelona em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Barcelona",
+					"keyword": "roteiro de barcelona em 3 dias",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-barcelona-5-dias",
+					"titulo": "Roteiro de Barcelona em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Barcelona",
+					"keyword": "roteiro de barcelona em 5 dias",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-barcelona-7-dias",
+					"titulo": "Roteiro de Barcelona em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Barcelona",
+					"keyword": "roteiro de barcelona em 7 dias",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-barcelona",
+					"titulo": "Primeira vez em Barcelona: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Barcelona",
+					"keyword": "primeira vez em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "barcelona-com-criancas",
+					"titulo": "Barcelona com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Barcelona",
+					"keyword": "barcelona com crianças",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "barcelona-a-dois",
+					"titulo": "Barcelona a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Barcelona",
+					"keyword": "barcelona a dois",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-barcelona",
+					"titulo": "O que fazer em Barcelona: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Barcelona",
+					"keyword": "o que fazer em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-barcelona",
+					"titulo": "Principais pontos turísticos de Barcelona",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Barcelona",
+					"keyword": "principais pontos turísticos de barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-barcelona",
+					"titulo": "Atrações gratuitas em Barcelona",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Barcelona",
+					"keyword": "atrações gratuitas em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "barcelona-a-noite",
+					"titulo": "O que fazer à noite em Barcelona",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Barcelona",
+					"keyword": "o que fazer à noite em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-barcelona",
+					"titulo": "Os melhores passeios em Barcelona",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Barcelona",
+					"keyword": "os melhores passeios em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-barcelona",
+					"titulo": "Bate-voltas saindo de Barcelona",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Barcelona",
+					"keyword": "bate-voltas saindo de barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-barcelona",
+					"titulo": "Do aeroporto ao centro de Barcelona: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Barcelona",
+					"keyword": "do aeroporto ao centro de barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-barcelona",
+					"titulo": "Transporte público em Barcelona: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Barcelona",
+					"keyword": "transporte público em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-barcelona",
+					"titulo": "Onde se hospedar em Barcelona: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Barcelona",
+					"keyword": "onde se hospedar em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-barcelona",
+					"titulo": "Onde comer em Barcelona",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Barcelona",
+					"keyword": "onde comer em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-barcelona",
+					"titulo": "Melhor época para visitar Barcelona",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Barcelona",
+					"keyword": "melhor época para visitar barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-barcelona",
+					"titulo": "O que levar na mala para Barcelona",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Barcelona",
+					"keyword": "o que levar na mala para barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-barcelona-esim",
+					"titulo": "Internet em Barcelona: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Barcelona",
+					"keyword": "internet em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-barcelona",
+					"titulo": "Quanto custa viajar para Barcelona",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Barcelona",
+					"keyword": "quanto custa viajar para barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-barcelona",
+					"titulo": "Como economizar em Barcelona",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Barcelona",
+					"keyword": "como economizar em barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-barcelona",
+					"titulo": "Seguro viagem para Barcelona: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Barcelona",
+					"keyword": "seguro viagem para barcelona",
+					"tourCity": "barcelona",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "amsterda",
+			"nome": "Amsterdã",
+			"regiao": "Europa",
+			"pais": "Holanda",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-amsterda-3-dias",
+					"titulo": "Roteiro de Amsterdã em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Amsterdã",
+					"keyword": "roteiro de amsterdã em 3 dias",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-amsterda-5-dias",
+					"titulo": "Roteiro de Amsterdã em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Amsterdã",
+					"keyword": "roteiro de amsterdã em 5 dias",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-amsterda-7-dias",
+					"titulo": "Roteiro de Amsterdã em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Amsterdã",
+					"keyword": "roteiro de amsterdã em 7 dias",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-amsterda",
+					"titulo": "Primeira vez em Amsterdã: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Amsterdã",
+					"keyword": "primeira vez em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "amsterda-com-criancas",
+					"titulo": "Amsterdã com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Amsterdã",
+					"keyword": "amsterdã com crianças",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "amsterda-a-dois",
+					"titulo": "Amsterdã a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Amsterdã",
+					"keyword": "amsterdã a dois",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-amsterda",
+					"titulo": "O que fazer em Amsterdã: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Amsterdã",
+					"keyword": "o que fazer em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-amsterda",
+					"titulo": "Principais pontos turísticos de Amsterdã",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Amsterdã",
+					"keyword": "principais pontos turísticos de amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-amsterda",
+					"titulo": "Atrações gratuitas em Amsterdã",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Amsterdã",
+					"keyword": "atrações gratuitas em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "amsterda-a-noite",
+					"titulo": "O que fazer à noite em Amsterdã",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Amsterdã",
+					"keyword": "o que fazer à noite em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-amsterda",
+					"titulo": "Os melhores passeios em Amsterdã",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Amsterdã",
+					"keyword": "os melhores passeios em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-amsterda",
+					"titulo": "Bate-voltas saindo de Amsterdã",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Amsterdã",
+					"keyword": "bate-voltas saindo de amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-amsterda",
+					"titulo": "Do aeroporto ao centro de Amsterdã: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Amsterdã",
+					"keyword": "do aeroporto ao centro de amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-amsterda",
+					"titulo": "Transporte público em Amsterdã: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Amsterdã",
+					"keyword": "transporte público em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-amsterda",
+					"titulo": "Onde se hospedar em Amsterdã: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Amsterdã",
+					"keyword": "onde se hospedar em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-amsterda",
+					"titulo": "Onde comer em Amsterdã",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Amsterdã",
+					"keyword": "onde comer em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-amsterda",
+					"titulo": "Melhor época para visitar Amsterdã",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Amsterdã",
+					"keyword": "melhor época para visitar amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-amsterda",
+					"titulo": "O que levar na mala para Amsterdã",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Amsterdã",
+					"keyword": "o que levar na mala para amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-amsterda-esim",
+					"titulo": "Internet em Amsterdã: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Amsterdã",
+					"keyword": "internet em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-amsterda",
+					"titulo": "Quanto custa viajar para Amsterdã",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Amsterdã",
+					"keyword": "quanto custa viajar para amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-amsterda",
+					"titulo": "Como economizar em Amsterdã",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Amsterdã",
+					"keyword": "como economizar em amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-amsterda",
+					"titulo": "Seguro viagem para Amsterdã: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Amsterdã",
+					"keyword": "seguro viagem para amsterdã",
+					"tourCity": "amsterda",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "madri",
+			"nome": "Madri",
+			"regiao": "Europa",
+			"pais": "Espanha",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-madri-3-dias",
+					"titulo": "Roteiro de Madri em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Madri",
+					"keyword": "roteiro de madri em 3 dias",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-madri-5-dias",
+					"titulo": "Roteiro de Madri em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Madri",
+					"keyword": "roteiro de madri em 5 dias",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-madri-7-dias",
+					"titulo": "Roteiro de Madri em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Madri",
+					"keyword": "roteiro de madri em 7 dias",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-madri",
+					"titulo": "Primeira vez em Madri: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Madri",
+					"keyword": "primeira vez em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "madri-com-criancas",
+					"titulo": "Madri com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Madri",
+					"keyword": "madri com crianças",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "madri-a-dois",
+					"titulo": "Madri a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Madri",
+					"keyword": "madri a dois",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-madri",
+					"titulo": "O que fazer em Madri: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Madri",
+					"keyword": "o que fazer em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-madri",
+					"titulo": "Principais pontos turísticos de Madri",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Madri",
+					"keyword": "principais pontos turísticos de madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-madri",
+					"titulo": "Atrações gratuitas em Madri",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Madri",
+					"keyword": "atrações gratuitas em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "madri-a-noite",
+					"titulo": "O que fazer à noite em Madri",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Madri",
+					"keyword": "o que fazer à noite em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-madri",
+					"titulo": "Os melhores passeios em Madri",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Madri",
+					"keyword": "os melhores passeios em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-madri",
+					"titulo": "Bate-voltas saindo de Madri",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Madri",
+					"keyword": "bate-voltas saindo de madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-madri",
+					"titulo": "Do aeroporto ao centro de Madri: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Madri",
+					"keyword": "do aeroporto ao centro de madri",
+					"tourCity": "madri",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-madri",
+					"titulo": "Transporte público em Madri: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Madri",
+					"keyword": "transporte público em madri",
+					"tourCity": "madri",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-madri",
+					"titulo": "Onde se hospedar em Madri: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Madri",
+					"keyword": "onde se hospedar em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-madri",
+					"titulo": "Onde comer em Madri",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Madri",
+					"keyword": "onde comer em madri",
+					"tourCity": "madri",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-madri",
+					"titulo": "Melhor época para visitar Madri",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Madri",
+					"keyword": "melhor época para visitar madri",
+					"tourCity": "madri",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-madri",
+					"titulo": "O que levar na mala para Madri",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Madri",
+					"keyword": "o que levar na mala para madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-madri-esim",
+					"titulo": "Internet em Madri: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Madri",
+					"keyword": "internet em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-madri",
+					"titulo": "Quanto custa viajar para Madri",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Madri",
+					"keyword": "quanto custa viajar para madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-madri",
+					"titulo": "Como economizar em Madri",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Madri",
+					"keyword": "como economizar em madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-madri",
+					"titulo": "Seguro viagem para Madri: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Madri",
+					"keyword": "seguro viagem para madri",
+					"tourCity": "madri",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "praga",
+			"nome": "Praga",
+			"regiao": "Europa",
+			"pais": "República Tcheca",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-praga-3-dias",
+					"titulo": "Roteiro de Praga em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praga",
+					"keyword": "roteiro de praga em 3 dias",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-praga-5-dias",
+					"titulo": "Roteiro de Praga em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praga",
+					"keyword": "roteiro de praga em 5 dias",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-praga-7-dias",
+					"titulo": "Roteiro de Praga em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praga",
+					"keyword": "roteiro de praga em 7 dias",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-praga",
+					"titulo": "Primeira vez em Praga: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praga",
+					"keyword": "primeira vez em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "praga-com-criancas",
+					"titulo": "Praga com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praga",
+					"keyword": "praga com crianças",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "praga-a-dois",
+					"titulo": "Praga a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praga",
+					"keyword": "praga a dois",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-praga",
+					"titulo": "O que fazer em Praga: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Praga",
+					"keyword": "o que fazer em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-praga",
+					"titulo": "Principais pontos turísticos de Praga",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Praga",
+					"keyword": "principais pontos turísticos de praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-praga",
+					"titulo": "Atrações gratuitas em Praga",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Praga",
+					"keyword": "atrações gratuitas em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "praga-a-noite",
+					"titulo": "O que fazer à noite em Praga",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Praga",
+					"keyword": "o que fazer à noite em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-praga",
+					"titulo": "Os melhores passeios em Praga",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Praga",
+					"keyword": "os melhores passeios em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-praga",
+					"titulo": "Bate-voltas saindo de Praga",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Praga",
+					"keyword": "bate-voltas saindo de praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-praga",
+					"titulo": "Do aeroporto ao centro de Praga: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Praga",
+					"keyword": "do aeroporto ao centro de praga",
+					"tourCity": "praga",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-praga",
+					"titulo": "Transporte público em Praga: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Praga",
+					"keyword": "transporte público em praga",
+					"tourCity": "praga",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-praga",
+					"titulo": "Onde se hospedar em Praga: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Praga",
+					"keyword": "onde se hospedar em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-praga",
+					"titulo": "Onde comer em Praga",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Praga",
+					"keyword": "onde comer em praga",
+					"tourCity": "praga",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-praga",
+					"titulo": "Melhor época para visitar Praga",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Praga",
+					"keyword": "melhor época para visitar praga",
+					"tourCity": "praga",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-praga",
+					"titulo": "O que levar na mala para Praga",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Praga",
+					"keyword": "o que levar na mala para praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-praga-esim",
+					"titulo": "Internet em Praga: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Praga",
+					"keyword": "internet em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-praga",
+					"titulo": "Quanto custa viajar para Praga",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Praga",
+					"keyword": "quanto custa viajar para praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-praga",
+					"titulo": "Como economizar em Praga",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Praga",
+					"keyword": "como economizar em praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-praga",
+					"titulo": "Seguro viagem para Praga: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Praga",
+					"keyword": "seguro viagem para praga",
+					"tourCity": "praga",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "nova-york",
+			"nome": "Nova York",
+			"regiao": "América do Norte",
+			"pais": "Estados Unidos",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-nova-york-3-dias",
+					"titulo": "Roteiro de Nova York em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Nova York",
+					"keyword": "roteiro de nova york em 3 dias",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-nova-york-5-dias",
+					"titulo": "Roteiro de Nova York em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Nova York",
+					"keyword": "roteiro de nova york em 5 dias",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-nova-york-7-dias",
+					"titulo": "Roteiro de Nova York em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Nova York",
+					"keyword": "roteiro de nova york em 7 dias",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-nova-york",
+					"titulo": "Primeira vez em Nova York: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Nova York",
+					"keyword": "primeira vez em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "nova-york-com-criancas",
+					"titulo": "Nova York com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Nova York",
+					"keyword": "nova york com crianças",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "nova-york-a-dois",
+					"titulo": "Nova York a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Nova York",
+					"keyword": "nova york a dois",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-nova-york",
+					"titulo": "O que fazer em Nova York: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Nova York",
+					"keyword": "o que fazer em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-nova-york",
+					"titulo": "Principais pontos turísticos de Nova York",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Nova York",
+					"keyword": "principais pontos turísticos de nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-nova-york",
+					"titulo": "Atrações gratuitas em Nova York",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Nova York",
+					"keyword": "atrações gratuitas em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "nova-york-a-noite",
+					"titulo": "O que fazer à noite em Nova York",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Nova York",
+					"keyword": "o que fazer à noite em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-nova-york",
+					"titulo": "Os melhores passeios em Nova York",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Nova York",
+					"keyword": "os melhores passeios em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-nova-york",
+					"titulo": "Bate-voltas saindo de Nova York",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Nova York",
+					"keyword": "bate-voltas saindo de nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-nova-york",
+					"titulo": "Do aeroporto ao centro de Nova York: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Nova York",
+					"keyword": "do aeroporto ao centro de nova york",
+					"tourCity": "nova-york",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-nova-york",
+					"titulo": "Transporte público em Nova York: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Nova York",
+					"keyword": "transporte público em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-nova-york",
+					"titulo": "Onde se hospedar em Nova York: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Nova York",
+					"keyword": "onde se hospedar em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-nova-york",
+					"titulo": "Onde comer em Nova York",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Nova York",
+					"keyword": "onde comer em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-nova-york",
+					"titulo": "Melhor época para visitar Nova York",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Nova York",
+					"keyword": "melhor época para visitar nova york",
+					"tourCity": "nova-york",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-nova-york",
+					"titulo": "O que levar na mala para Nova York",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Nova York",
+					"keyword": "o que levar na mala para nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-nova-york-esim",
+					"titulo": "Internet em Nova York: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Nova York",
+					"keyword": "internet em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-nova-york",
+					"titulo": "Quanto custa viajar para Nova York",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Nova York",
+					"keyword": "quanto custa viajar para nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-nova-york",
+					"titulo": "Como economizar em Nova York",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Nova York",
+					"keyword": "como economizar em nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-nova-york",
+					"titulo": "Seguro viagem para Nova York: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Nova York",
+					"keyword": "seguro viagem para nova york",
+					"tourCity": "nova-york",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "orlando",
+			"nome": "Orlando",
+			"regiao": "América do Norte",
+			"pais": "Estados Unidos",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-orlando-3-dias",
+					"titulo": "Roteiro de Orlando em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Orlando",
+					"keyword": "roteiro de orlando em 3 dias",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-orlando-5-dias",
+					"titulo": "Roteiro de Orlando em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Orlando",
+					"keyword": "roteiro de orlando em 5 dias",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-orlando-7-dias",
+					"titulo": "Roteiro de Orlando em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Orlando",
+					"keyword": "roteiro de orlando em 7 dias",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-orlando",
+					"titulo": "Primeira vez em Orlando: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Orlando",
+					"keyword": "primeira vez em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "orlando-com-criancas",
+					"titulo": "Orlando com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Orlando",
+					"keyword": "orlando com crianças",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "orlando-a-dois",
+					"titulo": "Orlando a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Orlando",
+					"keyword": "orlando a dois",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-orlando",
+					"titulo": "O que fazer em Orlando: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Orlando",
+					"keyword": "o que fazer em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-orlando",
+					"titulo": "Principais pontos turísticos de Orlando",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Orlando",
+					"keyword": "principais pontos turísticos de orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-orlando",
+					"titulo": "Atrações gratuitas em Orlando",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Orlando",
+					"keyword": "atrações gratuitas em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "orlando-a-noite",
+					"titulo": "O que fazer à noite em Orlando",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Orlando",
+					"keyword": "o que fazer à noite em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-orlando",
+					"titulo": "Os melhores passeios em Orlando",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Orlando",
+					"keyword": "os melhores passeios em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-orlando",
+					"titulo": "Bate-voltas saindo de Orlando",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Orlando",
+					"keyword": "bate-voltas saindo de orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-orlando",
+					"titulo": "Do aeroporto ao centro de Orlando: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Orlando",
+					"keyword": "do aeroporto ao centro de orlando",
+					"tourCity": "orlando",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-orlando",
+					"titulo": "Transporte público em Orlando: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Orlando",
+					"keyword": "transporte público em orlando",
+					"tourCity": "orlando",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-orlando",
+					"titulo": "Onde se hospedar em Orlando: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Orlando",
+					"keyword": "onde se hospedar em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-orlando",
+					"titulo": "Onde comer em Orlando",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Orlando",
+					"keyword": "onde comer em orlando",
+					"tourCity": "orlando",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-orlando",
+					"titulo": "Melhor época para visitar Orlando",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Orlando",
+					"keyword": "melhor época para visitar orlando",
+					"tourCity": "orlando",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-orlando",
+					"titulo": "O que levar na mala para Orlando",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Orlando",
+					"keyword": "o que levar na mala para orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-orlando-esim",
+					"titulo": "Internet em Orlando: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Orlando",
+					"keyword": "internet em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-orlando",
+					"titulo": "Quanto custa viajar para Orlando",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Orlando",
+					"keyword": "quanto custa viajar para orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-orlando",
+					"titulo": "Como economizar em Orlando",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Orlando",
+					"keyword": "como economizar em orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-orlando",
+					"titulo": "Seguro viagem para Orlando: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Orlando",
+					"keyword": "seguro viagem para orlando",
+					"tourCity": "orlando",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "buenos-aires",
+			"nome": "Buenos Aires",
+			"regiao": "América do Sul",
+			"pais": "Argentina",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-buenos-aires-3-dias",
+					"titulo": "Roteiro de Buenos Aires em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Buenos Aires",
+					"keyword": "roteiro de buenos aires em 3 dias",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-buenos-aires-5-dias",
+					"titulo": "Roteiro de Buenos Aires em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Buenos Aires",
+					"keyword": "roteiro de buenos aires em 5 dias",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-buenos-aires-7-dias",
+					"titulo": "Roteiro de Buenos Aires em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Buenos Aires",
+					"keyword": "roteiro de buenos aires em 7 dias",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-buenos-aires",
+					"titulo": "Primeira vez em Buenos Aires: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Buenos Aires",
+					"keyword": "primeira vez em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "buenos-aires-com-criancas",
+					"titulo": "Buenos Aires com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Buenos Aires",
+					"keyword": "buenos aires com crianças",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "buenos-aires-a-dois",
+					"titulo": "Buenos Aires a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Buenos Aires",
+					"keyword": "buenos aires a dois",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-buenos-aires",
+					"titulo": "O que fazer em Buenos Aires: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Buenos Aires",
+					"keyword": "o que fazer em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-buenos-aires",
+					"titulo": "Principais pontos turísticos de Buenos Aires",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Buenos Aires",
+					"keyword": "principais pontos turísticos de buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-buenos-aires",
+					"titulo": "Atrações gratuitas em Buenos Aires",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Buenos Aires",
+					"keyword": "atrações gratuitas em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "buenos-aires-a-noite",
+					"titulo": "O que fazer à noite em Buenos Aires",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Buenos Aires",
+					"keyword": "o que fazer à noite em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-buenos-aires",
+					"titulo": "Os melhores passeios em Buenos Aires",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Buenos Aires",
+					"keyword": "os melhores passeios em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-buenos-aires",
+					"titulo": "Bate-voltas saindo de Buenos Aires",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Buenos Aires",
+					"keyword": "bate-voltas saindo de buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-buenos-aires",
+					"titulo": "Do aeroporto ao centro de Buenos Aires: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Buenos Aires",
+					"keyword": "do aeroporto ao centro de buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-buenos-aires",
+					"titulo": "Transporte público em Buenos Aires: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Buenos Aires",
+					"keyword": "transporte público em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-buenos-aires",
+					"titulo": "Onde se hospedar em Buenos Aires: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Buenos Aires",
+					"keyword": "onde se hospedar em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-buenos-aires",
+					"titulo": "Onde comer em Buenos Aires",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Buenos Aires",
+					"keyword": "onde comer em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-buenos-aires",
+					"titulo": "Melhor época para visitar Buenos Aires",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Buenos Aires",
+					"keyword": "melhor época para visitar buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-buenos-aires",
+					"titulo": "O que levar na mala para Buenos Aires",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Buenos Aires",
+					"keyword": "o que levar na mala para buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-buenos-aires-esim",
+					"titulo": "Internet em Buenos Aires: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Buenos Aires",
+					"keyword": "internet em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-buenos-aires",
+					"titulo": "Quanto custa viajar para Buenos Aires",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Buenos Aires",
+					"keyword": "quanto custa viajar para buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-buenos-aires",
+					"titulo": "Como economizar em Buenos Aires",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Buenos Aires",
+					"keyword": "como economizar em buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-buenos-aires",
+					"titulo": "Seguro viagem para Buenos Aires: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Buenos Aires",
+					"keyword": "seguro viagem para buenos aires",
+					"tourCity": "buenos-aires",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "santiago",
+			"nome": "Santiago",
+			"regiao": "América do Sul",
+			"pais": "Chile",
+			"tipo": "internacional",
+			"template": "cidade-internacional",
+			"posts_previstos": 22,
+			"posts": [
+				{
+					"slug": "roteiro-santiago-3-dias",
+					"titulo": "Roteiro de Santiago em 3 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Santiago",
+					"keyword": "roteiro de santiago em 3 dias",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-santiago-5-dias",
+					"titulo": "Roteiro de Santiago em 5 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Santiago",
+					"keyword": "roteiro de santiago em 5 dias",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-santiago-7-dias",
+					"titulo": "Roteiro de Santiago em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Santiago",
+					"keyword": "roteiro de santiago em 7 dias",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-santiago",
+					"titulo": "Primeira vez em Santiago: guia completo",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Santiago",
+					"keyword": "primeira vez em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "santiago-com-criancas",
+					"titulo": "Santiago com crianças: roteiro e atrações",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Santiago",
+					"keyword": "santiago com crianças",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "santiago-a-dois",
+					"titulo": "Santiago a dois: roteiro romântico",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Santiago",
+					"keyword": "santiago a dois",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-santiago",
+					"titulo": "O que fazer em Santiago: atrações imperdíveis",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Santiago",
+					"keyword": "o que fazer em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "pontos-turisticos-de-santiago",
+					"titulo": "Principais pontos turísticos de Santiago",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Santiago",
+					"keyword": "principais pontos turísticos de santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "atracoes-gratuitas-em-santiago",
+					"titulo": "Atrações gratuitas em Santiago",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Santiago",
+					"keyword": "atrações gratuitas em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "santiago-a-noite",
+					"titulo": "O que fazer à noite em Santiago",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Santiago",
+					"keyword": "o que fazer à noite em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-santiago",
+					"titulo": "Os melhores passeios em Santiago",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Santiago",
+					"keyword": "os melhores passeios em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "bate-voltas-saindo-de-santiago",
+					"titulo": "Bate-voltas saindo de Santiago",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Santiago",
+					"keyword": "bate-voltas saindo de santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "aeroporto-ao-centro-de-santiago",
+					"titulo": "Do aeroporto ao centro de Santiago: como ir",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Santiago",
+					"keyword": "do aeroporto ao centro de santiago",
+					"tourCity": "santiago",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "transporte-publico-em-santiago",
+					"titulo": "Transporte público em Santiago: guia",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Santiago",
+					"keyword": "transporte público em santiago",
+					"tourCity": "santiago",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-santiago",
+					"titulo": "Onde se hospedar em Santiago: melhores bairros",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Santiago",
+					"keyword": "onde se hospedar em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-santiago",
+					"titulo": "Onde comer em Santiago",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Santiago",
+					"keyword": "onde comer em santiago",
+					"tourCity": "santiago",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "melhor-epoca-para-visitar-santiago",
+					"titulo": "Melhor época para visitar Santiago",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Santiago",
+					"keyword": "melhor época para visitar santiago",
+					"tourCity": "santiago",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-santiago",
+					"titulo": "O que levar na mala para Santiago",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Santiago",
+					"keyword": "o que levar na mala para santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "internet-em-santiago-esim",
+					"titulo": "Internet em Santiago: eSIM e chip",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "conectividade",
+					"cluster": "Antes de viajar Santiago",
+					"keyword": "internet em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-santiago",
+					"titulo": "Quanto custa viajar para Santiago",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Santiago",
+					"keyword": "quanto custa viajar para santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-santiago",
+					"titulo": "Como economizar em Santiago",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Santiago",
+					"keyword": "como economizar em santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-santiago",
+					"titulo": "Seguro viagem para Santiago: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Santiago",
+					"keyword": "seguro viagem para santiago",
+					"tourCity": "santiago",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "fernando-de-noronha",
+			"nome": "Fernando de Noronha",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-fernando-de-noronha",
+					"titulo": "Melhor época para ir a Fernando de Noronha",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Fernando de Noronha",
+					"keyword": "melhor época para ir a fernando de noronha",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-fernando-de-noronha",
+					"titulo": "Como chegar em Fernando de Noronha",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Fernando de Noronha",
+					"keyword": "como chegar em fernando de noronha",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-fernando-de-noronha",
+					"titulo": "Aluguel de carro e locomoção em Fernando de Noronha",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Fernando de Noronha",
+					"keyword": "aluguel de carro e locomoção em fernando de noronha",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-fernando-de-noronha",
+					"titulo": "Onde se hospedar em Fernando de Noronha",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Fernando de Noronha",
+					"keyword": "onde se hospedar em fernando de noronha",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-fernando-de-noronha",
+					"titulo": "As melhores pousadas em Fernando de Noronha",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Fernando de Noronha",
+					"keyword": "as melhores pousadas em fernando de noronha",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-fernando-de-noronha-4-dias",
+					"titulo": "Roteiro de Fernando de Noronha em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fernando de Noronha",
+					"keyword": "roteiro de fernando de noronha em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-fernando-de-noronha-7-dias",
+					"titulo": "Roteiro de Fernando de Noronha em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fernando de Noronha",
+					"keyword": "roteiro de fernando de noronha em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-fernando-de-noronha",
+					"titulo": "Primeira vez em Fernando de Noronha: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fernando de Noronha",
+					"keyword": "primeira vez em fernando de noronha",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "fernando-de-noronha-com-criancas",
+					"titulo": "Fernando de Noronha com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fernando de Noronha",
+					"keyword": "fernando de noronha com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "fernando-de-noronha-lua-de-mel",
+					"titulo": "Fernando de Noronha para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fernando de Noronha",
+					"keyword": "fernando de noronha para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-fernando-de-noronha",
+					"titulo": "O que fazer em Fernando de Noronha",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Fernando de Noronha",
+					"keyword": "o que fazer em fernando de noronha",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-fernando-de-noronha",
+					"titulo": "As melhores praias de Fernando de Noronha",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Fernando de Noronha",
+					"keyword": "as melhores praias de fernando de noronha",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-fernando-de-noronha",
+					"titulo": "Vida noturna em Fernando de Noronha",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Fernando de Noronha",
+					"keyword": "vida noturna em fernando de noronha",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-fernando-de-noronha",
+					"titulo": "Os melhores passeios em Fernando de Noronha",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Fernando de Noronha",
+					"keyword": "os melhores passeios em fernando de noronha",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-fernando-de-noronha",
+					"titulo": "O que visitar nos arredores de Fernando de Noronha",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Fernando de Noronha",
+					"keyword": "o que visitar nos arredores de fernando de noronha",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-fernando-de-noronha",
+					"titulo": "Onde comer em Fernando de Noronha",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Fernando de Noronha",
+					"keyword": "onde comer em fernando de noronha",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "fernando-de-noronha-no-verao-e-reveillon",
+					"titulo": "Fernando de Noronha no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Fernando de Noronha",
+					"keyword": "fernando de noronha no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-fernando-de-noronha",
+					"titulo": "O que levar na mala para Fernando de Noronha",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Fernando de Noronha",
+					"keyword": "o que levar na mala para fernando de noronha",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-fernando-de-noronha",
+					"titulo": "Quanto custa viajar para Fernando de Noronha",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Fernando de Noronha",
+					"keyword": "quanto custa viajar para fernando de noronha",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-fernando-de-noronha",
+					"titulo": "Como economizar em Fernando de Noronha",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Fernando de Noronha",
+					"keyword": "como economizar em fernando de noronha",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-fernando-de-noronha",
+					"titulo": "Seguro viagem para Fernando de Noronha: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Fernando de Noronha",
+					"keyword": "seguro viagem para fernando de noronha",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "maceio",
+			"nome": "Maceió",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-maceio",
+					"titulo": "Melhor época para ir a Maceió",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Maceió",
+					"keyword": "melhor época para ir a maceió",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-maceio",
+					"titulo": "Como chegar em Maceió",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Maceió",
+					"keyword": "como chegar em maceió",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-maceio",
+					"titulo": "Aluguel de carro e locomoção em Maceió",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Maceió",
+					"keyword": "aluguel de carro e locomoção em maceió",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-maceio",
+					"titulo": "Onde se hospedar em Maceió",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Maceió",
+					"keyword": "onde se hospedar em maceió",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-maceio",
+					"titulo": "As melhores pousadas em Maceió",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Maceió",
+					"keyword": "as melhores pousadas em maceió",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-maceio-4-dias",
+					"titulo": "Roteiro de Maceió em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Maceió",
+					"keyword": "roteiro de maceió em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-maceio-7-dias",
+					"titulo": "Roteiro de Maceió em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Maceió",
+					"keyword": "roteiro de maceió em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-maceio",
+					"titulo": "Primeira vez em Maceió: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Maceió",
+					"keyword": "primeira vez em maceió",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "maceio-com-criancas",
+					"titulo": "Maceió com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Maceió",
+					"keyword": "maceió com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "maceio-lua-de-mel",
+					"titulo": "Maceió para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Maceió",
+					"keyword": "maceió para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-maceio",
+					"titulo": "O que fazer em Maceió",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Maceió",
+					"keyword": "o que fazer em maceió",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-maceio",
+					"titulo": "As melhores praias de Maceió",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Maceió",
+					"keyword": "as melhores praias de maceió",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-maceio",
+					"titulo": "Vida noturna em Maceió",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Maceió",
+					"keyword": "vida noturna em maceió",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-maceio",
+					"titulo": "Os melhores passeios em Maceió",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Maceió",
+					"keyword": "os melhores passeios em maceió",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-maceio",
+					"titulo": "O que visitar nos arredores de Maceió",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Maceió",
+					"keyword": "o que visitar nos arredores de maceió",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-maceio",
+					"titulo": "Onde comer em Maceió",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Maceió",
+					"keyword": "onde comer em maceió",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "maceio-no-verao-e-reveillon",
+					"titulo": "Maceió no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Maceió",
+					"keyword": "maceió no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-maceio",
+					"titulo": "O que levar na mala para Maceió",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Maceió",
+					"keyword": "o que levar na mala para maceió",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-maceio",
+					"titulo": "Quanto custa viajar para Maceió",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Maceió",
+					"keyword": "quanto custa viajar para maceió",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-maceio",
+					"titulo": "Como economizar em Maceió",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Maceió",
+					"keyword": "como economizar em maceió",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-maceio",
+					"titulo": "Seguro viagem para Maceió: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Maceió",
+					"keyword": "seguro viagem para maceió",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "porto-de-galinhas",
+			"nome": "Porto de Galinhas",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-porto-de-galinhas",
+					"titulo": "Melhor época para ir a Porto de Galinhas",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Porto de Galinhas",
+					"keyword": "melhor época para ir a porto de galinhas",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-porto-de-galinhas",
+					"titulo": "Como chegar em Porto de Galinhas",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Porto de Galinhas",
+					"keyword": "como chegar em porto de galinhas",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-porto-de-galinhas",
+					"titulo": "Aluguel de carro e locomoção em Porto de Galinhas",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Porto de Galinhas",
+					"keyword": "aluguel de carro e locomoção em porto de galinhas",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-porto-de-galinhas",
+					"titulo": "Onde se hospedar em Porto de Galinhas",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Porto de Galinhas",
+					"keyword": "onde se hospedar em porto de galinhas",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-porto-de-galinhas",
+					"titulo": "As melhores pousadas em Porto de Galinhas",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Porto de Galinhas",
+					"keyword": "as melhores pousadas em porto de galinhas",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-porto-de-galinhas-4-dias",
+					"titulo": "Roteiro de Porto de Galinhas em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Porto de Galinhas",
+					"keyword": "roteiro de porto de galinhas em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-porto-de-galinhas-7-dias",
+					"titulo": "Roteiro de Porto de Galinhas em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Porto de Galinhas",
+					"keyword": "roteiro de porto de galinhas em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-porto-de-galinhas",
+					"titulo": "Primeira vez em Porto de Galinhas: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Porto de Galinhas",
+					"keyword": "primeira vez em porto de galinhas",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "porto-de-galinhas-com-criancas",
+					"titulo": "Porto de Galinhas com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Porto de Galinhas",
+					"keyword": "porto de galinhas com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "porto-de-galinhas-lua-de-mel",
+					"titulo": "Porto de Galinhas para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Porto de Galinhas",
+					"keyword": "porto de galinhas para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-porto-de-galinhas",
+					"titulo": "O que fazer em Porto de Galinhas",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Porto de Galinhas",
+					"keyword": "o que fazer em porto de galinhas",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-porto-de-galinhas",
+					"titulo": "As melhores praias de Porto de Galinhas",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Porto de Galinhas",
+					"keyword": "as melhores praias de porto de galinhas",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-porto-de-galinhas",
+					"titulo": "Vida noturna em Porto de Galinhas",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Porto de Galinhas",
+					"keyword": "vida noturna em porto de galinhas",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-porto-de-galinhas",
+					"titulo": "Os melhores passeios em Porto de Galinhas",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Porto de Galinhas",
+					"keyword": "os melhores passeios em porto de galinhas",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-porto-de-galinhas",
+					"titulo": "O que visitar nos arredores de Porto de Galinhas",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Porto de Galinhas",
+					"keyword": "o que visitar nos arredores de porto de galinhas",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-porto-de-galinhas",
+					"titulo": "Onde comer em Porto de Galinhas",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Porto de Galinhas",
+					"keyword": "onde comer em porto de galinhas",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "porto-de-galinhas-no-verao-e-reveillon",
+					"titulo": "Porto de Galinhas no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Porto de Galinhas",
+					"keyword": "porto de galinhas no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-porto-de-galinhas",
+					"titulo": "O que levar na mala para Porto de Galinhas",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Porto de Galinhas",
+					"keyword": "o que levar na mala para porto de galinhas",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-porto-de-galinhas",
+					"titulo": "Quanto custa viajar para Porto de Galinhas",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Porto de Galinhas",
+					"keyword": "quanto custa viajar para porto de galinhas",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-porto-de-galinhas",
+					"titulo": "Como economizar em Porto de Galinhas",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Porto de Galinhas",
+					"keyword": "como economizar em porto de galinhas",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-porto-de-galinhas",
+					"titulo": "Seguro viagem para Porto de Galinhas: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Porto de Galinhas",
+					"keyword": "seguro viagem para porto de galinhas",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "jericoacoara",
+			"nome": "Jericoacoara",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-jericoacoara",
+					"titulo": "Melhor época para ir a Jericoacoara",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Jericoacoara",
+					"keyword": "melhor época para ir a jericoacoara",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-jericoacoara",
+					"titulo": "Como chegar em Jericoacoara",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Jericoacoara",
+					"keyword": "como chegar em jericoacoara",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-jericoacoara",
+					"titulo": "Aluguel de carro e locomoção em Jericoacoara",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Jericoacoara",
+					"keyword": "aluguel de carro e locomoção em jericoacoara",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-jericoacoara",
+					"titulo": "Onde se hospedar em Jericoacoara",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Jericoacoara",
+					"keyword": "onde se hospedar em jericoacoara",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-jericoacoara",
+					"titulo": "As melhores pousadas em Jericoacoara",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Jericoacoara",
+					"keyword": "as melhores pousadas em jericoacoara",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-jericoacoara-4-dias",
+					"titulo": "Roteiro de Jericoacoara em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Jericoacoara",
+					"keyword": "roteiro de jericoacoara em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-jericoacoara-7-dias",
+					"titulo": "Roteiro de Jericoacoara em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Jericoacoara",
+					"keyword": "roteiro de jericoacoara em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-jericoacoara",
+					"titulo": "Primeira vez em Jericoacoara: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Jericoacoara",
+					"keyword": "primeira vez em jericoacoara",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "jericoacoara-com-criancas",
+					"titulo": "Jericoacoara com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Jericoacoara",
+					"keyword": "jericoacoara com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "jericoacoara-lua-de-mel",
+					"titulo": "Jericoacoara para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Jericoacoara",
+					"keyword": "jericoacoara para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-jericoacoara",
+					"titulo": "O que fazer em Jericoacoara",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Jericoacoara",
+					"keyword": "o que fazer em jericoacoara",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-jericoacoara",
+					"titulo": "As melhores praias de Jericoacoara",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Jericoacoara",
+					"keyword": "as melhores praias de jericoacoara",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-jericoacoara",
+					"titulo": "Vida noturna em Jericoacoara",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Jericoacoara",
+					"keyword": "vida noturna em jericoacoara",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-jericoacoara",
+					"titulo": "Os melhores passeios em Jericoacoara",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Jericoacoara",
+					"keyword": "os melhores passeios em jericoacoara",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-jericoacoara",
+					"titulo": "O que visitar nos arredores de Jericoacoara",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Jericoacoara",
+					"keyword": "o que visitar nos arredores de jericoacoara",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-jericoacoara",
+					"titulo": "Onde comer em Jericoacoara",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Jericoacoara",
+					"keyword": "onde comer em jericoacoara",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "jericoacoara-no-verao-e-reveillon",
+					"titulo": "Jericoacoara no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Jericoacoara",
+					"keyword": "jericoacoara no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-jericoacoara",
+					"titulo": "O que levar na mala para Jericoacoara",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Jericoacoara",
+					"keyword": "o que levar na mala para jericoacoara",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-jericoacoara",
+					"titulo": "Quanto custa viajar para Jericoacoara",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Jericoacoara",
+					"keyword": "quanto custa viajar para jericoacoara",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-jericoacoara",
+					"titulo": "Como economizar em Jericoacoara",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Jericoacoara",
+					"keyword": "como economizar em jericoacoara",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-jericoacoara",
+					"titulo": "Seguro viagem para Jericoacoara: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Jericoacoara",
+					"keyword": "seguro viagem para jericoacoara",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "praia-da-pipa",
+			"nome": "Praia da Pipa",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-praia-da-pipa",
+					"titulo": "Melhor época para ir a Praia da Pipa",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Praia da Pipa",
+					"keyword": "melhor época para ir a praia da pipa",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-praia-da-pipa",
+					"titulo": "Como chegar em Praia da Pipa",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Praia da Pipa",
+					"keyword": "como chegar em praia da pipa",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-praia-da-pipa",
+					"titulo": "Aluguel de carro e locomoção em Praia da Pipa",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Praia da Pipa",
+					"keyword": "aluguel de carro e locomoção em praia da pipa",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-praia-da-pipa",
+					"titulo": "Onde se hospedar em Praia da Pipa",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Praia da Pipa",
+					"keyword": "onde se hospedar em praia da pipa",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-praia-da-pipa",
+					"titulo": "As melhores pousadas em Praia da Pipa",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Praia da Pipa",
+					"keyword": "as melhores pousadas em praia da pipa",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-praia-da-pipa-4-dias",
+					"titulo": "Roteiro de Praia da Pipa em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praia da Pipa",
+					"keyword": "roteiro de praia da pipa em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-praia-da-pipa-7-dias",
+					"titulo": "Roteiro de Praia da Pipa em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praia da Pipa",
+					"keyword": "roteiro de praia da pipa em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-praia-da-pipa",
+					"titulo": "Primeira vez em Praia da Pipa: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praia da Pipa",
+					"keyword": "primeira vez em praia da pipa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "praia-da-pipa-com-criancas",
+					"titulo": "Praia da Pipa com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praia da Pipa",
+					"keyword": "praia da pipa com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "praia-da-pipa-lua-de-mel",
+					"titulo": "Praia da Pipa para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Praia da Pipa",
+					"keyword": "praia da pipa para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-praia-da-pipa",
+					"titulo": "O que fazer em Praia da Pipa",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Praia da Pipa",
+					"keyword": "o que fazer em praia da pipa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-praia-da-pipa",
+					"titulo": "As melhores praias de Praia da Pipa",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Praia da Pipa",
+					"keyword": "as melhores praias de praia da pipa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-praia-da-pipa",
+					"titulo": "Vida noturna em Praia da Pipa",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Praia da Pipa",
+					"keyword": "vida noturna em praia da pipa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-praia-da-pipa",
+					"titulo": "Os melhores passeios em Praia da Pipa",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Praia da Pipa",
+					"keyword": "os melhores passeios em praia da pipa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-praia-da-pipa",
+					"titulo": "O que visitar nos arredores de Praia da Pipa",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Praia da Pipa",
+					"keyword": "o que visitar nos arredores de praia da pipa",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-praia-da-pipa",
+					"titulo": "Onde comer em Praia da Pipa",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Praia da Pipa",
+					"keyword": "onde comer em praia da pipa",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "praia-da-pipa-no-verao-e-reveillon",
+					"titulo": "Praia da Pipa no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Praia da Pipa",
+					"keyword": "praia da pipa no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-praia-da-pipa",
+					"titulo": "O que levar na mala para Praia da Pipa",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Praia da Pipa",
+					"keyword": "o que levar na mala para praia da pipa",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-praia-da-pipa",
+					"titulo": "Quanto custa viajar para Praia da Pipa",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Praia da Pipa",
+					"keyword": "quanto custa viajar para praia da pipa",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-praia-da-pipa",
+					"titulo": "Como economizar em Praia da Pipa",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Praia da Pipa",
+					"keyword": "como economizar em praia da pipa",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-praia-da-pipa",
+					"titulo": "Seguro viagem para Praia da Pipa: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Praia da Pipa",
+					"keyword": "seguro viagem para praia da pipa",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "salvador",
+			"nome": "Salvador",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-salvador",
+					"titulo": "Melhor época para ir a Salvador",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Salvador",
+					"keyword": "melhor época para ir a salvador",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-salvador",
+					"titulo": "Como chegar em Salvador",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Salvador",
+					"keyword": "como chegar em salvador",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-salvador",
+					"titulo": "Aluguel de carro e locomoção em Salvador",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Salvador",
+					"keyword": "aluguel de carro e locomoção em salvador",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-salvador",
+					"titulo": "Onde se hospedar em Salvador",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Salvador",
+					"keyword": "onde se hospedar em salvador",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-salvador",
+					"titulo": "As melhores pousadas em Salvador",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Salvador",
+					"keyword": "as melhores pousadas em salvador",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-salvador-4-dias",
+					"titulo": "Roteiro de Salvador em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Salvador",
+					"keyword": "roteiro de salvador em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-salvador-7-dias",
+					"titulo": "Roteiro de Salvador em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Salvador",
+					"keyword": "roteiro de salvador em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-salvador",
+					"titulo": "Primeira vez em Salvador: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Salvador",
+					"keyword": "primeira vez em salvador",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "salvador-com-criancas",
+					"titulo": "Salvador com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Salvador",
+					"keyword": "salvador com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "salvador-lua-de-mel",
+					"titulo": "Salvador para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Salvador",
+					"keyword": "salvador para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-salvador",
+					"titulo": "O que fazer em Salvador",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Salvador",
+					"keyword": "o que fazer em salvador",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-salvador",
+					"titulo": "As melhores praias de Salvador",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Salvador",
+					"keyword": "as melhores praias de salvador",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-salvador",
+					"titulo": "Vida noturna em Salvador",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Salvador",
+					"keyword": "vida noturna em salvador",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-salvador",
+					"titulo": "Os melhores passeios em Salvador",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Salvador",
+					"keyword": "os melhores passeios em salvador",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-salvador",
+					"titulo": "O que visitar nos arredores de Salvador",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Salvador",
+					"keyword": "o que visitar nos arredores de salvador",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-salvador",
+					"titulo": "Onde comer em Salvador",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Salvador",
+					"keyword": "onde comer em salvador",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "salvador-no-verao-e-reveillon",
+					"titulo": "Salvador no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Salvador",
+					"keyword": "salvador no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-salvador",
+					"titulo": "O que levar na mala para Salvador",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Salvador",
+					"keyword": "o que levar na mala para salvador",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-salvador",
+					"titulo": "Quanto custa viajar para Salvador",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Salvador",
+					"keyword": "quanto custa viajar para salvador",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-salvador",
+					"titulo": "Como economizar em Salvador",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Salvador",
+					"keyword": "como economizar em salvador",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-salvador",
+					"titulo": "Seguro viagem para Salvador: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Salvador",
+					"keyword": "seguro viagem para salvador",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "fortaleza",
+			"nome": "Fortaleza",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-fortaleza",
+					"titulo": "Melhor época para ir a Fortaleza",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Fortaleza",
+					"keyword": "melhor época para ir a fortaleza",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-fortaleza",
+					"titulo": "Como chegar em Fortaleza",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Fortaleza",
+					"keyword": "como chegar em fortaleza",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-fortaleza",
+					"titulo": "Aluguel de carro e locomoção em Fortaleza",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Fortaleza",
+					"keyword": "aluguel de carro e locomoção em fortaleza",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-fortaleza",
+					"titulo": "Onde se hospedar em Fortaleza",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Fortaleza",
+					"keyword": "onde se hospedar em fortaleza",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-fortaleza",
+					"titulo": "As melhores pousadas em Fortaleza",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Fortaleza",
+					"keyword": "as melhores pousadas em fortaleza",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-fortaleza-4-dias",
+					"titulo": "Roteiro de Fortaleza em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fortaleza",
+					"keyword": "roteiro de fortaleza em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-fortaleza-7-dias",
+					"titulo": "Roteiro de Fortaleza em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fortaleza",
+					"keyword": "roteiro de fortaleza em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-fortaleza",
+					"titulo": "Primeira vez em Fortaleza: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fortaleza",
+					"keyword": "primeira vez em fortaleza",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "fortaleza-com-criancas",
+					"titulo": "Fortaleza com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fortaleza",
+					"keyword": "fortaleza com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "fortaleza-lua-de-mel",
+					"titulo": "Fortaleza para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Fortaleza",
+					"keyword": "fortaleza para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-fortaleza",
+					"titulo": "O que fazer em Fortaleza",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Fortaleza",
+					"keyword": "o que fazer em fortaleza",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-fortaleza",
+					"titulo": "As melhores praias de Fortaleza",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Fortaleza",
+					"keyword": "as melhores praias de fortaleza",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-fortaleza",
+					"titulo": "Vida noturna em Fortaleza",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Fortaleza",
+					"keyword": "vida noturna em fortaleza",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-fortaleza",
+					"titulo": "Os melhores passeios em Fortaleza",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Fortaleza",
+					"keyword": "os melhores passeios em fortaleza",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-fortaleza",
+					"titulo": "O que visitar nos arredores de Fortaleza",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Fortaleza",
+					"keyword": "o que visitar nos arredores de fortaleza",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-fortaleza",
+					"titulo": "Onde comer em Fortaleza",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Fortaleza",
+					"keyword": "onde comer em fortaleza",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "fortaleza-no-verao-e-reveillon",
+					"titulo": "Fortaleza no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Fortaleza",
+					"keyword": "fortaleza no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-fortaleza",
+					"titulo": "O que levar na mala para Fortaleza",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Fortaleza",
+					"keyword": "o que levar na mala para fortaleza",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-fortaleza",
+					"titulo": "Quanto custa viajar para Fortaleza",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Fortaleza",
+					"keyword": "quanto custa viajar para fortaleza",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-fortaleza",
+					"titulo": "Como economizar em Fortaleza",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Fortaleza",
+					"keyword": "como economizar em fortaleza",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-fortaleza",
+					"titulo": "Seguro viagem para Fortaleza: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Fortaleza",
+					"keyword": "seguro viagem para fortaleza",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "lencois-maranhenses",
+			"nome": "Lençóis Maranhenses",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-lencois-maranhenses",
+					"titulo": "Melhor época para ir a Lençóis Maranhenses",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Lençóis Maranhenses",
+					"keyword": "melhor época para ir a lençóis maranhenses",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-lencois-maranhenses",
+					"titulo": "Como chegar em Lençóis Maranhenses",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Lençóis Maranhenses",
+					"keyword": "como chegar em lençóis maranhenses",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-lencois-maranhenses",
+					"titulo": "Aluguel de carro e locomoção em Lençóis Maranhenses",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Lençóis Maranhenses",
+					"keyword": "aluguel de carro e locomoção em lençóis maranhenses",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-lencois-maranhenses",
+					"titulo": "Onde se hospedar em Lençóis Maranhenses",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Lençóis Maranhenses",
+					"keyword": "onde se hospedar em lençóis maranhenses",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-lencois-maranhenses",
+					"titulo": "As melhores pousadas em Lençóis Maranhenses",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Lençóis Maranhenses",
+					"keyword": "as melhores pousadas em lençóis maranhenses",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-lencois-maranhenses-4-dias",
+					"titulo": "Roteiro de Lençóis Maranhenses em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lençóis Maranhenses",
+					"keyword": "roteiro de lençóis maranhenses em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-lencois-maranhenses-7-dias",
+					"titulo": "Roteiro de Lençóis Maranhenses em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lençóis Maranhenses",
+					"keyword": "roteiro de lençóis maranhenses em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-lencois-maranhenses",
+					"titulo": "Primeira vez em Lençóis Maranhenses: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lençóis Maranhenses",
+					"keyword": "primeira vez em lençóis maranhenses",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "lencois-maranhenses-com-criancas",
+					"titulo": "Lençóis Maranhenses com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lençóis Maranhenses",
+					"keyword": "lençóis maranhenses com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "lencois-maranhenses-lua-de-mel",
+					"titulo": "Lençóis Maranhenses para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Lençóis Maranhenses",
+					"keyword": "lençóis maranhenses para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-lencois-maranhenses",
+					"titulo": "O que fazer em Lençóis Maranhenses",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Lençóis Maranhenses",
+					"keyword": "o que fazer em lençóis maranhenses",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-lencois-maranhenses",
+					"titulo": "As melhores praias de Lençóis Maranhenses",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Lençóis Maranhenses",
+					"keyword": "as melhores praias de lençóis maranhenses",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-lencois-maranhenses",
+					"titulo": "Vida noturna em Lençóis Maranhenses",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Lençóis Maranhenses",
+					"keyword": "vida noturna em lençóis maranhenses",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-lencois-maranhenses",
+					"titulo": "Os melhores passeios em Lençóis Maranhenses",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Lençóis Maranhenses",
+					"keyword": "os melhores passeios em lençóis maranhenses",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-lencois-maranhenses",
+					"titulo": "O que visitar nos arredores de Lençóis Maranhenses",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Lençóis Maranhenses",
+					"keyword": "o que visitar nos arredores de lençóis maranhenses",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-lencois-maranhenses",
+					"titulo": "Onde comer em Lençóis Maranhenses",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Lençóis Maranhenses",
+					"keyword": "onde comer em lençóis maranhenses",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "lencois-maranhenses-no-verao-e-reveillon",
+					"titulo": "Lençóis Maranhenses no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Lençóis Maranhenses",
+					"keyword": "lençóis maranhenses no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-lencois-maranhenses",
+					"titulo": "O que levar na mala para Lençóis Maranhenses",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Lençóis Maranhenses",
+					"keyword": "o que levar na mala para lençóis maranhenses",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-lencois-maranhenses",
+					"titulo": "Quanto custa viajar para Lençóis Maranhenses",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Lençóis Maranhenses",
+					"keyword": "quanto custa viajar para lençóis maranhenses",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-lencois-maranhenses",
+					"titulo": "Como economizar em Lençóis Maranhenses",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Lençóis Maranhenses",
+					"keyword": "como economizar em lençóis maranhenses",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-lencois-maranhenses",
+					"titulo": "Seguro viagem para Lençóis Maranhenses: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Lençóis Maranhenses",
+					"keyword": "seguro viagem para lençóis maranhenses",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		},
+		{
+			"slug": "chapada-diamantina",
+			"nome": "Chapada Diamantina",
+			"regiao": "Nordeste",
+			"pais": "Brasil",
+			"tipo": "nacional",
+			"template": "destino-nacional",
+			"posts_previstos": 21,
+			"posts": [
+				{
+					"slug": "melhor-epoca-para-ir-a-chapada-diamantina",
+					"titulo": "Melhor época para ir a Chapada Diamantina",
+					"grupo": "Antes de viajar",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Antes de viajar Chapada Diamantina",
+					"keyword": "melhor época para ir a chapada diamantina",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "como-chegar-em-chapada-diamantina",
+					"titulo": "Como chegar em Chapada Diamantina",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Chapada Diamantina",
+					"keyword": "como chegar em chapada diamantina",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "aluguel-de-carro-em-chapada-diamantina",
+					"titulo": "Aluguel de carro e locomoção em Chapada Diamantina",
+					"grupo": "Logística",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Logística Chapada Diamantina",
+					"keyword": "aluguel de carro e locomoção em chapada diamantina",
+					"afiliados": [
+						"Rentcars (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-se-hospedar-em-chapada-diamantina",
+					"titulo": "Onde se hospedar em Chapada Diamantina",
+					"grupo": "Hospedagem",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Chapada Diamantina",
+					"keyword": "onde se hospedar em chapada diamantina",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-pousadas-em-chapada-diamantina",
+					"titulo": "As melhores pousadas em Chapada Diamantina",
+					"grupo": "Hospedagem",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Hospedagem Chapada Diamantina",
+					"keyword": "as melhores pousadas em chapada diamantina",
+					"afiliados": [
+						"Booking (futuro)"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-chapada-diamantina-4-dias",
+					"titulo": "Roteiro de Chapada Diamantina em 4 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Chapada Diamantina",
+					"keyword": "roteiro de chapada diamantina em 4 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "roteiro-chapada-diamantina-7-dias",
+					"titulo": "Roteiro de Chapada Diamantina em 7 dias",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Chapada Diamantina",
+					"keyword": "roteiro de chapada diamantina em 7 dias",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "primeira-vez-em-chapada-diamantina",
+					"titulo": "Primeira vez em Chapada Diamantina: dicas essenciais",
+					"grupo": "Roteiros",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Roteiros Chapada Diamantina",
+					"keyword": "primeira vez em chapada diamantina",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "chapada-diamantina-com-criancas",
+					"titulo": "Chapada Diamantina com crianças: o que fazer",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Chapada Diamantina",
+					"keyword": "chapada diamantina com crianças",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "chapada-diamantina-lua-de-mel",
+					"titulo": "Chapada Diamantina para lua de mel",
+					"grupo": "Roteiros",
+					"tipo": "roteiro",
+					"pillar": "destinos",
+					"cluster": "Roteiros Chapada Diamantina",
+					"keyword": "chapada diamantina para lua de mel",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-fazer-em-chapada-diamantina",
+					"titulo": "O que fazer em Chapada Diamantina",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Chapada Diamantina",
+					"keyword": "o que fazer em chapada diamantina",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-praias-de-chapada-diamantina",
+					"titulo": "As melhores praias de Chapada Diamantina",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Chapada Diamantina",
+					"keyword": "as melhores praias de chapada diamantina",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "vida-noturna-em-chapada-diamantina",
+					"titulo": "Vida noturna em Chapada Diamantina",
+					"grupo": "O que fazer",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "O que fazer Chapada Diamantina",
+					"keyword": "vida noturna em chapada diamantina",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "melhores-passeios-em-chapada-diamantina",
+					"titulo": "Os melhores passeios em Chapada Diamantina",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Chapada Diamantina",
+					"keyword": "os melhores passeios em chapada diamantina",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "arredores-de-chapada-diamantina",
+					"titulo": "O que visitar nos arredores de Chapada Diamantina",
+					"grupo": "Passeios",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Passeios Chapada Diamantina",
+					"keyword": "o que visitar nos arredores de chapada diamantina",
+					"afiliados": [
+						"GetYourGuide"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "onde-comer-em-chapada-diamantina",
+					"titulo": "Onde comer em Chapada Diamantina",
+					"grupo": "Gastronomia",
+					"tipo": "lista",
+					"pillar": "destinos",
+					"cluster": "Gastronomia Chapada Diamantina",
+					"keyword": "onde comer em chapada diamantina",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "chapada-diamantina-no-verao-e-reveillon",
+					"titulo": "Chapada Diamantina no verão e no réveillon",
+					"grupo": "Sazonal",
+					"tipo": "guia",
+					"pillar": "destinos",
+					"cluster": "Sazonal Chapada Diamantina",
+					"keyword": "chapada diamantina no verão e no réveillon",
+					"afiliados": [],
+					"status": "fila"
+				},
+				{
+					"slug": "o-que-levar-na-mala-para-chapada-diamantina",
+					"titulo": "O que levar na mala para Chapada Diamantina",
+					"grupo": "Antes de viajar",
+					"tipo": "lista",
+					"pillar": "equipamentos",
+					"cluster": "Antes de viajar Chapada Diamantina",
+					"keyword": "o que levar na mala para chapada diamantina",
+					"afiliados": [
+						"Mercado Livre",
+						"Shopee"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "quanto-custa-viajar-para-chapada-diamantina",
+					"titulo": "Quanto custa viajar para Chapada Diamantina",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Chapada Diamantina",
+					"keyword": "quanto custa viajar para chapada diamantina",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "como-economizar-em-chapada-diamantina",
+					"titulo": "Como economizar em Chapada Diamantina",
+					"grupo": "Finanças",
+					"tipo": "lista",
+					"pillar": "financas",
+					"cluster": "Finanças Chapada Diamantina",
+					"keyword": "como economizar em chapada diamantina",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				},
+				{
+					"slug": "seguro-viagem-para-chapada-diamantina",
+					"titulo": "Seguro viagem para Chapada Diamantina: vale a pena?",
+					"grupo": "Finanças",
+					"tipo": "guia",
+					"pillar": "financas",
+					"cluster": "Finanças Chapada Diamantina",
+					"keyword": "seguro viagem para chapada diamantina",
+					"afiliados": [
+						"Seguros Promo"
+					],
+					"status": "fila"
+				}
+			]
+		}
+	]
+}
