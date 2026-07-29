@@ -1,10 +1,12 @@
 {
-	"_doc": "Biblioteca curada de passeios por cidade (GetYourGuide). NÃO listar todos mecanicamente num artigo: use como referência para inserir os passeios que fazem sentido no contexto de cada matéria (venda agradável). A seção automática de um post com 'tourCity: <cidade>' mostra o reforço de confiança + o widget da GYG (que já cobre a variedade). partnerId AWKZZM8.",
+	"_doc": "Biblioteca curada de passeios por cidade (GetYourGuide). NÃO listar todos mecanicamente num artigo: use como referência para inserir os passeios que fazem sentido no contexto de cada matéria (venda agradável). Widgets: variar o TIPO (city/auto) e a POSIÇÃO (meio E/ou fim do artigo). Usar sempre data-gyg-locale-code='pt-BR' (mostra em português) e o data-gyg-location-id da cidade (vem do 'lXX' das URLs da GYG: Londres 57, Paris 16). partnerId AWKZZM8.",
 	"partnerId": "AWKZZM8",
+	"locale": "pt-BR",
 	"cidades": {
 		"londres": {
 			"label": "Londres",
 			"gygCampaign": "Londres",
+			"locationId": 57,
 			"tours": [
 				{
 					"titulo": "Stonehenge: excursão matinal saindo de Londres",
@@ -51,6 +53,7 @@
 		"paris": {
 			"label": "Paris",
 			"gygCampaign": "Paris",
+			"locationId": 16,
 			"tours": [
 				{
 					"titulo": "Torre Eiffel: acesso ao 2º andar ou ao topo",

@@ -8,10 +8,11 @@ interface Props {
 const { city } = Astro.props;
 const cidades = passeios.cidades as Record<
 	string,
-	{ label: string; gygCampaign: string; tours: { titulo: string; url: string }[] }
+	{ label: string; gygCampaign: string; locationId?: number; tours: { titulo: string; url: string }[] }
 >;
 const data = cidades[city];
 const partnerId = passeios.partnerId;
+const locale = passeios.locale ?? 'pt-BR';
 ---
 
 {
@@ -23,7 +24,23 @@ const partnerId = passeios.partnerId;
 				maiores e mais confiáveis plataformas de passeios e ingressos do mundo, com avaliações reais
 				de viajantes e cancelamento flexível na maioria das atividades.
 			</p>
-			<div data-gyg-widget="auto" data-gyg-partner-id={partnerId} data-gyg-cmp={data.gygCampaign} />
+			{data.locationId ? (
+				<div
+					data-gyg-widget="city"
+					data-gyg-href="https://widget.getyourguide.com/default/city.frame"
+					data-gyg-location-id={String(data.locationId)}
+					data-gyg-locale-code={locale}
+					data-gyg-partner-id={partnerId}
+					data-gyg-cmp={data.gygCampaign}
+				/>
+			) : (
+				<div
+					data-gyg-widget="auto"
+					data-gyg-locale-code={locale}
+					data-gyg-partner-id={partnerId}
+					data-gyg-cmp={data.gygCampaign}
+				/>
+			)}
 		</section>
 	)
 }
