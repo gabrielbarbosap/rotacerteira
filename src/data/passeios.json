@@ -47,6 +47,76 @@
 					"url": "https://www.getyourguide.pt/londres-l57/londres-arsenal-fc-entrada-no-emirates-stadium-e-guia-de-audio-t45135/?partner_id=AWKZZM8&utm_medium=online_publisher"
 				}
 			]
+		},
+		"paris": {
+			"label": "Paris",
+			"gygCampaign": "Paris",
+			"tours": [
+				{
+					"titulo": "Torre Eiffel: acesso ao 2º andar ou ao topo",
+					"url": "https://www.getyourguide.com/paris-l16/paris-eiffel-tower-2nd-floor-or-summit-access-t403886/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Torre Eiffel: acesso reservado dedicado (topo ou 2º andar)",
+					"url": "https://www.getyourguide.com/paris-l16/eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor-t403969/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Museu do Louvre: obras-primas essenciais em 2h",
+					"url": "https://www.getyourguide.com/paris-l16/louvre-museum-essential-masterpieces-in-2-hours-with-photo-session-t1106475/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Palácio de Versalhes: palácio, Trianon e jardins",
+					"url": "https://www.getyourguide.com/paris-l16/versailles-tour-trianon-gardens-and-palace-admission-t1416553/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Versalhes ao nascer do sol (tour em grupo pequeno)",
+					"url": "https://www.getyourguide.com/paris-l16/palace-of-versailles-early-sunrise-ticket-small-group-tour-t1263985/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Cruzeiro de 1h no Sena saindo da Torre Eiffel",
+					"url": "https://www.getyourguide.com/paris-l16/paris-1-hour-seine-cruise-departing-from-the-eiffel-tower-t193940/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Cruzeiro noturno no Sena com aperitivo",
+					"url": "https://www.getyourguide.com/paris-l16/paris-night-cruise-on-the-seine-river-with-aperitif-t405257/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Bateaux Parisiens: cruzeiro com jantar no Sena",
+					"url": "https://www.getyourguide.com/paris-l16/bateaux-parisiens-dinner-cruise-t51059/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Disneyland Paris: ingresso 2 parques (1 a 5 dias)",
+					"url": "https://www.getyourguide.com/paris-l16/disneyland-paris-2-parks-ticket-1-2-3-4-5-day-t395320/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Arco do Triunfo: ingresso para o terraço",
+					"url": "https://www.getyourguide.com/paris-l16/paris-arc-de-triomphe-rooftop-tickets-t66157/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Panteão de Paris: ingresso",
+					"url": "https://www.getyourguide.com/paris-l16/paris-pantheon-entry-ticket-t70680/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Ônibus turístico Tootbus (hop-on hop-off, cruzeiro opcional)",
+					"url": "https://www.getyourguide.com/paris-l16/paris-tootbus-hop-on-hop-off-optional-river-cruise-t381474/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Moulin Rouge: show com champanhe",
+					"url": "https://www.getyourguide.com/paris-l16/moulin-rouge-show-with-champagne-t189477/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "Roland Garros: tour guiado nos bastidores do estádio",
+					"url": "https://www.getyourguide.com/paris-l16/paris-roland-garros-stadium-guided-backstage-tour-t418620/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "PSG: ingresso de jogo no Parc des Princes",
+					"url": "https://www.getyourguide.com/paris-l16/paris-saint-germain-match-ticket-at-parc-des-princes-t1384079/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				},
+				{
+					"titulo": "PSG: assista ao jogo com um torcedor local",
+					"url": "https://www.getyourguide.com/paris-l16/paris-see-paris-saint-germain-together-with-a-local-fan-t756942/?partner_id=AWKZZM8&utm_medium=online_publisher"
+				}
+			]
 		}
 	}
 }
