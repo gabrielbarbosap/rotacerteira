@@ -4,6 +4,10 @@ export const SITE_TITLE = 'Rota Certeira';
 export const SITE_DESCRIPTION =
 	'Viaje melhor com escolhas certeiras: roteiros, equipamentos, conectividade, finanças e IA para a sua viagem.';
 
+// Google Analytics 4 — carregado só em produção (ver BaseHead.astro),
+// para não poluir os dados com acessos do ambiente de desenvolvimento.
+export const GA_MEASUREMENT_ID = 'G-RQX9Q4LX66';
+
 // Pilares (topic clusters) com conteúdo publicado — controla o menu, o
 // rodapé e as páginas /{pilar}. "IA para Viajar" fica de fora até ter
 // pelo menos 1 matéria publicada (ver pillar 'ia' em content.config.ts).
