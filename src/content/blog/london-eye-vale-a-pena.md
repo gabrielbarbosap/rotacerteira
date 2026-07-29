@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Passeios Londres'
 keyword: 'london eye vale a pena'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/london-eye-noite.jpg'
 tourCity: 'londres'
 draft: false
 ---

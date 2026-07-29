@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'roteiro paris 7 dias'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/arco-triunfo-noite-epoca.jpg'
 draft: false
 ---
 

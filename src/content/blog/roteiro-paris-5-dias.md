@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'roteiro paris 5 dias'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/versalhes-palacio-aereo.jpg'
 draft: false
 ---
 

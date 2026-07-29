@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Logística Londres'
 keyword: 'visto reino unido brasileiros'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'
 draft: false
 ---
 

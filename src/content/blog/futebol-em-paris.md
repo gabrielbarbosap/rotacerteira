@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Nichos Paris'
 keyword: 'futebol em paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/arco-triunfo-noite-epoca.jpg'
 draft: false
 ---
 

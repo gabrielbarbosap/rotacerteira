@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Comparativos Europa'
 keyword: 'londres ou paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'
 tourCity: 'londres'
 draft: false
 ---

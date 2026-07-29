@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'O que fazer em Londres'
 keyword: 'o que fazer à noite em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-noite-transito.jpg'
 tourCity: 'londres'
 draft: false
 ---

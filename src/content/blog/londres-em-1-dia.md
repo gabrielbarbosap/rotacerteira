@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Londres'
 keyword: 'londres em 1 dia'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'
 tourCity: 'londres'
 draft: false
 ---

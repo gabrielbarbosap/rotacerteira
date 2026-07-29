@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Bate-voltas Londres'
 keyword: 'bate volta saindo de londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-parlamento.avif'
 tourCity: 'londres'
 draft: false
 ---

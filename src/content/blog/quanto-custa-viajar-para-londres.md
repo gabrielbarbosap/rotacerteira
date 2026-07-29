@@ -6,6 +6,7 @@ pillar: 'financas'
 cluster: 'Custos de viagem'
 keyword: 'quanto custa viajar para londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'
 draft: false
 ---
 

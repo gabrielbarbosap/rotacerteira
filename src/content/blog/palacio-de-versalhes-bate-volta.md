@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'versalhes saindo de paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/versalhes-salao-espelhos.jpg'
 draft: false
 ---
 

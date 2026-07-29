@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Londres'
 keyword: 'londres romântico'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'
 tourCity: 'londres'
 draft: false
 ---

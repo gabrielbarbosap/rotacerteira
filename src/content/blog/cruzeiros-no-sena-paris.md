@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'cruzeiro no sena paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/eiffel-sena-dia-barcos.jpg'
 draft: false
 ---
 

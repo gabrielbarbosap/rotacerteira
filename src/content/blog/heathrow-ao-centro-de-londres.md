@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Logística Londres'
 keyword: 'heathrow ao centro de londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'
 tourCity: 'londres'
 draft: false
 ---

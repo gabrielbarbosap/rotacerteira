@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'primeira vez em paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/paris-terraco-outono.jpg'
 draft: false
 ---
 

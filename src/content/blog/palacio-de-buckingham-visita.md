@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Passeios Londres'
 keyword: 'palácio de buckingham visita'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'
 tourCity: 'londres'
 draft: false
 ---

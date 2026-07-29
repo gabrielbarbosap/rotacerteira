@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Londres temático'
 keyword: 'londres harry potter'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/hogwarts-castelo.jpg'
 tourCity: 'londres'
 draft: false
 ---

@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Londres'
 keyword: 'primeira vez em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'
 tourCity: 'londres'
 draft: false
 ---

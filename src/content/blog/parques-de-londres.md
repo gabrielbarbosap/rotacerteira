@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'O que fazer em Londres'
 keyword: 'parques de londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-outono.jpg'
 tourCity: 'londres'
 draft: false
 ---

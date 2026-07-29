@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Londres temático'
 keyword: 'compras em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'
 tourCity: 'londres'
 draft: false
 ---

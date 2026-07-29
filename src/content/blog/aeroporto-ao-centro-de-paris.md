@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'aeroporto ao centro de paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/paris-avif-2.avif'
 draft: false
 ---
 

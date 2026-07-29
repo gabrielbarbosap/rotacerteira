@@ -6,6 +6,7 @@ pillar: 'financas'
 cluster: 'Custos de viagem'
 keyword: 'quanto custa viajar para paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/versalhes-jardins-aereo.webp'
 draft: false
 ---
 

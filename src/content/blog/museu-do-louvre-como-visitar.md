@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'museu do louvre ingresso'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/eiffel-noite-preto-branco.jpg'
 draft: false
 ---
 

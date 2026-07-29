@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Europa'
 keyword: 'roteiro londres 5 dias'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'
 tourCity: 'londres'
 draft: false
 ---

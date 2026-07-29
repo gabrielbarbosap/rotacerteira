@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Londres'
 keyword: 'roteiro londres 3 dias'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'
 tourCity: 'londres'
 draft: false
 ---

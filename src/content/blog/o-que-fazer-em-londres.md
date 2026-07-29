@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'O que fazer em Londres'
 keyword: 'o que fazer em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'
 tourCity: 'londres'
 draft: false
 ---

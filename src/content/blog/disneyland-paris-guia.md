@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'disneyland paris ingresso'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/paris-avif-1.avif'
 draft: false
 ---
 

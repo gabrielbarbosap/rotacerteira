@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Logística Londres'
 keyword: 'oyster ou contactless'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/onibus-vermelho-ilustracao.jpg'
 tourCity: 'londres'
 draft: false
 ---

@@ -6,6 +6,7 @@ pillar: 'equipamentos'
 cluster: 'Mala e organização'
 keyword: 'o que levar na mala para londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'
 tourCity: 'londres'
 draft: false
 ---

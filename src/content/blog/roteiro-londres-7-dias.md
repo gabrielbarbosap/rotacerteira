@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Londres'
 keyword: 'roteiro londres 7 dias'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-outono.jpg'
 tourCity: 'londres'
 draft: false
 ---

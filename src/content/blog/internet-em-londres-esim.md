@@ -6,6 +6,7 @@ pillar: 'conectividade'
 cluster: 'eSIM'
 keyword: 'internet em londres esim'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/onibus-vermelho-ilustracao.jpg'
 draft: false
 ---
 

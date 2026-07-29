@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Passeios Londres'
 keyword: 'ônibus turístico londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/onibus-vermelho-ilustracao.jpg'
 tourCity: 'londres'
 draft: false
 ---

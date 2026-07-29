@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Passeios Londres'
 keyword: 'london pass vale a pena'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'
 tourCity: 'londres'
 draft: false
 ---

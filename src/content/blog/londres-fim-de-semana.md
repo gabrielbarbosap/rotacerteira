@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Londres'
 keyword: 'londres fim de semana'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-outono.jpg'
 tourCity: 'londres'
 draft: false
 ---

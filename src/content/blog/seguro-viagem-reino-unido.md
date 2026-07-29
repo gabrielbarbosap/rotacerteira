@@ -6,6 +6,7 @@ pillar: 'financas'
 cluster: 'Seguro viagem'
 keyword: 'seguro viagem reino unido'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-parlamento.avif'
 draft: false
 ---
 

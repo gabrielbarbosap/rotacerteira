@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Hospedagem Londres'
 keyword: 'hospedagem barata em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'
 tourCity: 'londres'
 draft: false
 ---

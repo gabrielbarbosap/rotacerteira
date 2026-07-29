@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Londres'
 keyword: 'londres com crianças'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/london-eye-noite.jpg'
 tourCity: 'londres'
 draft: false
 ---

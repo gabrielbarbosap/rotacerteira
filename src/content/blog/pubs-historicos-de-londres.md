@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Gastronomia Londres'
 keyword: 'pubs de londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/onibus-vermelho-ilustracao.jpg'
 tourCity: 'londres'
 draft: false
 ---

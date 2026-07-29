@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'moulin rouge paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/arco-triunfo-noite-transito.jpg'
 draft: false
 ---
 

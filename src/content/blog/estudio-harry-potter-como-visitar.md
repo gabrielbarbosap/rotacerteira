@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Passeios Londres'
 keyword: 'estúdio harry potter londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/hogwarts-castelo.jpg'
 tourCity: 'londres'
 draft: false
 ---

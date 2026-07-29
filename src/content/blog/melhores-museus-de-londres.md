@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'O que fazer em Londres'
 keyword: 'museus de londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'
 tourCity: 'londres'
 draft: false
 ---

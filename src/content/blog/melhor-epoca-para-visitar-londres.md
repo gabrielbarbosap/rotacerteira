@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Logística Londres'
 keyword: 'melhor época para visitar londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-outono.jpg'
 tourCity: 'londres'
 draft: false
 ---

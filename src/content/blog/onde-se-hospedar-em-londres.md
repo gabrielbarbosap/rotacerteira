@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Hospedagem Londres'
 keyword: 'onde se hospedar em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-outono.jpg'
 tourCity: 'londres'
 draft: false
 ---

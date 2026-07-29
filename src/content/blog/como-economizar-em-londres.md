@@ -6,6 +6,7 @@ pillar: 'financas'
 cluster: 'Custos de viagem'
 keyword: 'como economizar em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'
 tourCity: 'londres'
 draft: false
 ---

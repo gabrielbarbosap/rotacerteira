@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Logística Londres'
 keyword: 'transporte público em londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-noite-transito.jpg'
 tourCity: 'londres'
 draft: false
 ---

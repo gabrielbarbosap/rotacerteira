@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'onde se hospedar em paris'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/paris-aereo-outono-sena.jpg'
 draft: false
 ---
 

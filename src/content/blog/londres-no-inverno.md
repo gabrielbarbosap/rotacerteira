@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Londres sazonal'
 keyword: 'londres no inverno'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/big-ben-noite-transito.jpg'
 tourCity: 'londres'
 draft: false
 ---

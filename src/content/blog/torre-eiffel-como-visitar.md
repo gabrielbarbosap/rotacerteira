@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Roteiros Paris'
 keyword: 'torre eiffel ingresso'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/paris/eiffel-por-do-sol-trocadero.jpg'
 draft: false
 ---
 

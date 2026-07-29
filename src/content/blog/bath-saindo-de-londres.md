@@ -6,6 +6,7 @@ pillar: 'destinos'
 cluster: 'Bate-voltas Londres'
 keyword: 'bath saindo de londres'
 author: 'Gabriel Barbosa'
+heroImage: '../../assets/hero/londres/tamisa-por-do-sol.avif'
 tourCity: 'londres'
 draft: false
 ---
