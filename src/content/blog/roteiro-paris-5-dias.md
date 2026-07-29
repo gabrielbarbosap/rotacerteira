@@ -84,6 +84,23 @@ Fique numa região central e bem servida de metrô:
 | Versalhes (palácio + jardins) | dia inteiro |
 | Montmartre + Sacré-Cœur | 2 a 3 horas |
 
+## Vale a pena comprar os ingressos antecipados?
+
+Para as atrações com fila e horário marcado, sim — cada hora na fila é uma atração a menos. Os ingressos abaixo são da GetYourGuide, uma das maiores e mais confiáveis plataformas de passeios e ingressos do mundo, com avaliações reais de viajantes e cancelamento flexível na maioria das atividades.
+
+<div class="tabela-produtos">
+<table>
+<thead>
+<tr><th>Ingresso</th><th>Por que antecipar</th><th></th></tr>
+</thead>
+<tbody>
+<tr class="destaque"><td class="prod-nome">Torre Eiffel</td><td>a pior fila da cidade</td><td><a class="btn-afiliado" href="https://www.getyourguide.com/paris-l16/eiffel-tower-dedicated-reserved-access-summit-or-2nd-floor-t403969/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">Ver preço →</a></td></tr>
+<tr><td class="prod-nome">Palácio de Versalhes</td><td>fila enorme, horário marcado</td><td><a class="btn-afiliado" href="https://www.getyourguide.com/paris-l16/versailles-tour-trianon-gardens-and-palace-admission-t1416553/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">Ver preço →</a></td></tr>
+<tr><td class="prod-nome">Museu do Louvre</td><td>museu gigante, guia poupa tempo</td><td><a class="btn-afiliado" href="https://www.getyourguide.com/paris-l16/louvre-museum-essential-masterpieces-in-2-hours-with-photo-session-t1106475/?partner_id=AWKZZM8&utm_medium=online_publisher" target="_blank" rel="sponsored nofollow noopener">Ver preço →</a></td></tr>
+</tbody>
+</table>
+</div>
+
 ## Perguntas frequentes
 
 **5 dias são suficientes para conhecer Paris?**
