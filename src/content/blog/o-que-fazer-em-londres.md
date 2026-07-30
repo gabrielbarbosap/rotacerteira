@@ -4,6 +4,7 @@ description: 'As 25 melhores atrações de Londres, divididas por tipo: clássic
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'O que fazer em Londres'
+destino: ['londres']
 keyword: 'o que fazer em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'

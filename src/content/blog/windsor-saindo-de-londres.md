@@ -4,6 +4,7 @@ description: 'Como visitar o Castelo de Windsor saindo de Londres: trem ou excur
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Bate-voltas Londres'
+destino: ['londres']
 keyword: 'windsor saindo de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-parlamento.avif'

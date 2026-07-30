@@ -19,3 +19,13 @@ export const PILLARS = [
 ] as const;
 
 export type PillarSlug = (typeof PILLARS)[number]['slug'];
+
+// Destinos com conteúdo publicado — alimenta os filtros em /destinos e as
+// páginas /destinos/{slug} (ver [destino].astro e o campo `destino` em
+// content.config.ts).
+export const DESTINATIONS = [
+	{ slug: 'londres', label: 'Londres' },
+	{ slug: 'paris', label: 'Paris' },
+] as const;
+
+export type DestinationSlug = (typeof DESTINATIONS)[number]['slug'];

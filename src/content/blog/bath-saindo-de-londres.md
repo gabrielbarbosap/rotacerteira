@@ -4,6 +4,7 @@ description: 'Como visitar Bath saindo de Londres: o que ver, trem ou excursão,
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Bate-voltas Londres'
+destino: ['londres']
 keyword: 'bath saindo de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tamisa-por-do-sol.avif'

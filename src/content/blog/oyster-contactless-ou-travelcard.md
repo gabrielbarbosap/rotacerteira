@@ -4,6 +4,7 @@ description: 'Oyster, contactless ou Travelcard? Compare as formas de pagar o tr
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Logística Londres'
+destino: ['londres']
 keyword: 'oyster ou contactless'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/onibus-vermelho-ilustracao.jpg'

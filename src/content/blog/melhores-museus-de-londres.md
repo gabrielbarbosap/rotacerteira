@@ -4,6 +4,7 @@ description: 'Guia dos melhores museus de Londres: o que ver em cada um, quais t
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'O que fazer em Londres'
+destino: ['londres']
 keyword: 'museus de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'

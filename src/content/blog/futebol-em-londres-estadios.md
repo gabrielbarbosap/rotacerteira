@@ -4,6 +4,7 @@ description: 'Guia do futebol em Londres: os estádios dos grandes clubes, como 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Londres temático'
+destino: ['londres']
 keyword: 'futebol em londres estádios'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'

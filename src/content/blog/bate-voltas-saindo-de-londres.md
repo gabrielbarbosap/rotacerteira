@@ -4,6 +4,7 @@ description: 'Os melhores bate-voltas de Londres: Stonehenge, Windsor, Oxford, C
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Bate-voltas Londres'
+destino: ['londres']
 keyword: 'bate volta saindo de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-parlamento.avif'

@@ -4,6 +4,7 @@ description: 'Como usar o transporte público de Londres: contactless ou Oyster,
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Logística Londres'
+destino: ['londres']
 keyword: 'transporte público em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-noite-transito.jpg'

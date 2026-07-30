@@ -4,6 +4,7 @@ description: 'O que fazer à noite em Londres: musicais do West End, pubs histó
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'O que fazer em Londres'
+destino: ['londres']
 keyword: 'o que fazer à noite em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-noite-transito.jpg'

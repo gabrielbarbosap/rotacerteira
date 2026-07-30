@@ -4,6 +4,7 @@ description: 'Guia do Warner Bros. Studio Tour: o que ver, onde fica, como chega
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Passeios Londres'
+destino: ['londres']
 keyword: 'estúdio harry potter londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/hogwarts-castelo.jpg'

@@ -4,6 +4,7 @@ description: 'Roteiro de 3 dias em Paris por região: Torre Eiffel, Louvre, Mont
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'roteiro paris 3 dias'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/eiffel-noite-lua.jpg'

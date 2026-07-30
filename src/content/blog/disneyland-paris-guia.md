@@ -4,6 +4,7 @@ description: 'Guia da Disneyland Paris: os dois parques, quantos dias reservar, 
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'disneyland paris ingresso'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/paris-avif-1.avif'

@@ -4,6 +4,7 @@ description: 'Gatwick Express, trem, ônibus ou táxi? Compare tempo, preço e c
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Logística Londres'
+destino: ['londres']
 keyword: 'gatwick ao centro de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tamisa-por-do-sol.avif'

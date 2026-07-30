@@ -4,6 +4,7 @@ description: 'Roteiro romântico em Londres: passeios a dois, jantares, vistas d
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'londres romântico'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'

@@ -4,6 +4,7 @@ description: 'Roteiro completo de 7 dias em Paris: os clássicos, Versalhes, Mon
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'roteiro paris 7 dias'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/arco-triunfo-noite-epoca.jpg'

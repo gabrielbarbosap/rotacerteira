@@ -4,6 +4,7 @@ description: 'A London Eye vale a pena? Veja como funciona, quanto dura, melhor 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Passeios Londres'
+destino: ['londres']
 keyword: 'london eye vale a pena'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/london-eye-noite.jpg'

@@ -4,6 +4,7 @@ description: 'Brasileiro precisa de visto para o Reino Unido? Entenda a ETA obri
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Logística Londres'
+destino: ['londres']
 keyword: 'visto reino unido brasileiros'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'

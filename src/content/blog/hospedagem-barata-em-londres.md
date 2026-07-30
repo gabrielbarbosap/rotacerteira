@@ -4,6 +4,7 @@ description: 'Onde encontrar hospedagem barata em Londres: hostels, apart-hotéi
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Hospedagem Londres'
+destino: ['londres']
 keyword: 'hospedagem barata em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'

@@ -4,6 +4,7 @@ description: 'Quais passeios valem a pena em Londres: ingressos sem fila, ônibu
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Passeios Londres'
+destino: ['londres']
 keyword: 'passeios em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'

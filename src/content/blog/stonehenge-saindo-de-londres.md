@@ -4,6 +4,7 @@ description: 'Como ir a Stonehenge saindo de Londres: excursão, trem ou carro, 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Bate-voltas Londres'
+destino: ['londres']
 keyword: 'stonehenge saindo de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tamisa-por-do-sol.avif'

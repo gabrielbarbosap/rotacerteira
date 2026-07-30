@@ -4,6 +4,7 @@ description: 'Guia dos mercados de Londres: o que encontrar em cada um, melhores
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'O que fazer em Londres'
+destino: ['londres']
 keyword: 'mercados de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'

@@ -4,6 +4,7 @@ description: 'Roteiro de Harry Potter em Londres: o estúdio da Warner Bros., a 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Londres temático'
+destino: ['londres']
 keyword: 'londres harry potter'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/hogwarts-castelo.jpg'

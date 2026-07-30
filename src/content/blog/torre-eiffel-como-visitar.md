@@ -4,6 +4,7 @@ description: 'Guia completo da Torre Eiffel: 2º andar ou topo, quanto tempo dur
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'torre eiffel ingresso'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/eiffel-por-do-sol-trocadero.jpg'

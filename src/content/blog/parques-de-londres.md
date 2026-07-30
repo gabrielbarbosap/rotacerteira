@@ -4,6 +4,7 @@ description: 'Guia dos melhores parques de Londres: Hyde Park, Regent´s Park, S
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'O que fazer em Londres'
+destino: ['londres']
 keyword: 'parques de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-outono.jpg'

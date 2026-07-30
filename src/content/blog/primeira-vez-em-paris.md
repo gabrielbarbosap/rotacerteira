@@ -4,6 +4,7 @@ description: 'Vai a Paris pela primeira vez? Veja quantos dias ficar, documentos
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'primeira vez em paris'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/paris-terraco-outono.jpg'

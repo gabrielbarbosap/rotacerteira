@@ -4,6 +4,7 @@ description: 'Guia de Versalhes saindo de Paris: como chegar, o que ver no palá
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'versalhes saindo de paris'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/versalhes-salao-espelhos.jpg'

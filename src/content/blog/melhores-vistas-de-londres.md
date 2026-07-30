@@ -4,6 +4,7 @@ description: 'Os melhores mirantes de Londres, dos gratuitos aos pagos: Sky Gard
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'O que fazer em Londres'
+destino: ['londres']
 keyword: 'melhores vistas de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'

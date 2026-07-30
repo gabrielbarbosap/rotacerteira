@@ -4,6 +4,7 @@ description: 'Vai a Londres pela primeira vez? Quantos dias ficar, documentos, t
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'primeira vez em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'

@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { SITE_TITLE, DESTINATIONS } from '../../consts';
+
+export async function getStaticPaths() {
+	return DESTINATIONS.map((d) => ({ params: { destino: d.slug }, props: d }));
+}
+
+const { slug, label } = Astro.props;
+const posts = (
+	await getCollection(
+		'blog',
+		({ data }) =>
+			(data.destino ?? []).includes(slug) && (import.meta.env.PROD ? !data.draft : true),
+	)
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const title = `${label} — Destinos — ${SITE_TITLE}`;
+const description = `Todos os artigos sobre ${label} no ${SITE_TITLE}: roteiros, passeios, custos e dicas práticas.`;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<nav class="breadcrumb" aria-label="Trilha">
+				<a href="/">Início</a> › <a href="/destinos">Destinos</a> › <span>{label}</span>
+			</nav>
+			<h1 class="section-title">{label}</h1>
+			<nav class="destino-chips" aria-label="Filtrar por destino">
+				{
+					DESTINATIONS.map((d) => (
+						<a href={`/destinos/${d.slug}`} class={d.slug === slug ? 'active' : ''}>
+							{d.label}
+						</a>
+					))
+				}
+			</nav>
+			{
+				posts.length === 0 ? (
+					<p>Ainda não há artigos publicados sobre {label}. Volte em breve.</p>
+				) : (
+					<div class="card-grid">
+						{posts.map((post) => <ArticleCard post={post} />)}
+					</div>
+				)
+			}
+		</main>
+		<Footer />
+	</body>
+</html>
+<style>
+	main {
+		width: 1120px;
+		max-width: calc(100% - 2em);
+	}
+	.destino-chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5em;
+		margin: 0.8em 0 1.8em;
+	}
+	.destino-chips a {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 999px;
+		padding: 0.4em 0.9em;
+		text-decoration: none;
+		color: var(--text);
+		font-size: 0.9rem;
+	}
+	.destino-chips a:hover {
+		border-color: var(--accent);
+		color: var(--link);
+	}
+	.destino-chips a.active {
+		background: var(--accent);
+		border-color: var(--accent);
+		color: var(--accent-ink);
+		font-weight: 700;
+	}
+</style>

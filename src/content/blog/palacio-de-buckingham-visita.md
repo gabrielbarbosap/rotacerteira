@@ -4,6 +4,7 @@ description: 'Guia do Palácio de Buckingham: como ver a troca da guarda de gra�
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Passeios Londres'
+destino: ['londres']
 keyword: 'palácio de buckingham visita'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'

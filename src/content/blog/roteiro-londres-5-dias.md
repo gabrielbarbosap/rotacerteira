@@ -4,6 +4,7 @@ description: 'Um roteiro de 5 dias em Londres organizado por região, com o esse
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Europa'
+destino: ['londres']
 keyword: 'roteiro londres 5 dias'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'

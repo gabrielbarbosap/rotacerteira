@@ -4,6 +4,7 @@ description: 'O ônibus turístico de Londres vale a pena? Veja como funciona o 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Passeios Londres'
+destino: ['londres']
 keyword: 'ônibus turístico londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/onibus-vermelho-ilustracao.jpg'

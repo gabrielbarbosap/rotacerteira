@@ -4,6 +4,7 @@ description: 'Como passar o réveillon em Londres: os fogos no Tâmisa, como con
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Londres sazonal'
+destino: ['londres']
 keyword: 'réveillon em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-noite-transito.jpg'

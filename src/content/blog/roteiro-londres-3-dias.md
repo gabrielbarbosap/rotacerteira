@@ -4,6 +4,7 @@ description: 'Roteiro de 3 dias em Londres por região: o que fazer em cada dia,
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'roteiro londres 3 dias'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'

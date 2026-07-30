@@ -4,6 +4,7 @@ description: 'Oxford ou Cambridge saindo de Londres? Compare as duas cidades uni
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Bate-voltas Londres'
+destino: ['londres']
 keyword: 'oxford ou cambridge'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-parlamento.avif'

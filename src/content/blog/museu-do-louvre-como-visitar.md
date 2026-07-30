@@ -4,6 +4,7 @@ description: 'Guia do Museu do Louvre: o que ver em poucas horas, como comprar i
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'museu do louvre ingresso'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/eiffel-noite-preto-branco.jpg'

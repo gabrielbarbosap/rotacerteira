@@ -4,6 +4,7 @@ description: 'As melhores atrações de Paris: monumentos, museus, bairros e pas
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'o que fazer em paris'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/paris-aereo-outono-sena.jpg'

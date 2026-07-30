@@ -4,6 +4,7 @@ description: 'Qual a melhor época para ir a Londres? Compare clima, preços, mu
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Logística Londres'
+destino: ['londres']
 keyword: 'melhor época para visitar londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-outono.jpg'

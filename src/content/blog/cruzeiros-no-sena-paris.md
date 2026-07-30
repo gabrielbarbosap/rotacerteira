@@ -4,6 +4,7 @@ description: 'Cruzeiro de dia, ao pôr do sol ou com jantar? Compare os cruzeiro
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'cruzeiro no sena paris'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/eiffel-sena-dia-barcos.jpg'

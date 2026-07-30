@@ -4,6 +4,7 @@ description: 'O que fazer em Londres em 1 dia: um roteiro a pé pelo essencial, 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'londres em 1 dia'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'

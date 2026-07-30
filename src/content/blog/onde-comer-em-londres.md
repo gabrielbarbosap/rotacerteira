@@ -4,6 +4,7 @@ description: 'Onde comer em Londres sem gastar demais: mercados, pubs, comida de
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Gastronomia Londres'
+destino: ['londres']
 keyword: 'onde comer em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'

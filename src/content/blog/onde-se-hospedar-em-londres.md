@@ -4,6 +4,7 @@ description: 'Guia dos melhores bairros para se hospedar em Londres por perfil: 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Hospedagem Londres'
+destino: ['londres']
 keyword: 'onde se hospedar em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-outono.jpg'

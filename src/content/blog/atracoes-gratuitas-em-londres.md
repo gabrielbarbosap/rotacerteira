@@ -4,6 +4,7 @@ description: 'Museus, mirantes, parques e experiências de graça em Londres: 20
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'O que fazer em Londres'
+destino: ['londres']
 keyword: 'atrações gratuitas em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'

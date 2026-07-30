@@ -4,6 +4,7 @@ description: 'Charles de Gaulle ou Orly? Compare trem, ônibus e táxi para ir d
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'aeroporto ao centro de paris'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/paris-avif-2.avif'

@@ -4,6 +4,7 @@ description: 'Como visitar a Torre de Londres: o que ver, quanto tempo dura, mel
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Passeios Londres'
+destino: ['londres']
 keyword: 'torre de londres ingresso'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'

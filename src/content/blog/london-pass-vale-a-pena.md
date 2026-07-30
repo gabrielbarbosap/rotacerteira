@@ -4,6 +4,7 @@ description: 'O London Pass vale a pena? Veja como funciona, o que inclui, para 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Passeios Londres'
+destino: ['londres']
 keyword: 'london pass vale a pena'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/tower-bridge-por-do-sol.jpg'

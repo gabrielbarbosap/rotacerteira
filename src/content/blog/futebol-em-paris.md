@@ -4,6 +4,7 @@ description: 'Guia de futebol em Paris: como ver um jogo do PSG no Parc des Prin
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Nichos Paris'
+destino: ['paris']
 keyword: 'futebol em paris'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/arco-triunfo-noite-epoca.jpg'

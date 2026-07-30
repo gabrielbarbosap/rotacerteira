@@ -4,6 +4,7 @@ description: 'Metrô, Elizabeth line, Heathrow Express, ônibus ou táxi? Compar
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Logística Londres'
+destino: ['londres']
 keyword: 'heathrow ao centro de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'

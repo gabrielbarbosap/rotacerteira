@@ -4,6 +4,7 @@ description: 'Como conhecer Londres gastando pouco: museus grátis, hospedagem b
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'londres barato'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/cabine-telefonica-big-ben.jpeg'

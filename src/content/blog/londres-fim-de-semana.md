@@ -4,6 +4,7 @@ description: 'Roteiro de 2 dias em Londres para um fim de semana: o que fazer no
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'londres fim de semana'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-outono.jpg'

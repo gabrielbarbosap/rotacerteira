@@ -4,6 +4,7 @@ description: 'Guia de compras em Londres: as melhores ruas e lojas, outlets, mer
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Londres temático'
+destino: ['londres']
 keyword: 'compras em londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/skyline-londres-por-do-sol.jpg'

@@ -20,6 +20,9 @@ const blog = defineCollection({
 			pillar: z.enum(['destinos', 'equipamentos', 'conectividade', 'financas', 'ia']),
 			// Nome do cluster específico (ex: "Roteiros Europa").
 			cluster: z.string(),
+			// Destino(s) do artigo (ex: ["londres"]) — alimenta o filtro de
+			// /destinos/[destino]. Comparativos podem ter mais de um.
+			destino: z.array(z.string()).optional(),
 			// Cidade dos passeios (ex: "londres"): injeta a lista curada de
 			// passeios + o widget da GetYourGuide (ver src/data/passeios.json).
 			tourCity: z.string().optional(),

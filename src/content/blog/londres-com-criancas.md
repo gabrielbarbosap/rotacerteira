@@ -4,6 +4,7 @@ description: 'Guia de Londres com crianças: as melhores atrações por idade, r
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'londres com crianças'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/london-eye-noite.jpg'

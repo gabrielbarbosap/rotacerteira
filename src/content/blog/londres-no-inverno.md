@@ -4,6 +4,7 @@ description: 'Londres no inverno vale a pena? O que fazer no frio, como lidar co
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Londres sazonal'
+destino: ['londres']
 keyword: 'londres no inverno'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-noite-transito.jpg'

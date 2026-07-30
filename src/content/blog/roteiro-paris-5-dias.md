@@ -4,6 +4,7 @@ description: 'Roteiro de 5 dias em Paris, dia a dia: Torre Eiffel, Louvre, Montm
 pubDate: '2026-07-24'
 pillar: 'destinos'
 cluster: 'Roteiros Paris'
+destino: ['paris']
 keyword: 'roteiro paris 5 dias'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/paris/versalhes-palacio-aereo.jpg'

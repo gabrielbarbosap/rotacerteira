@@ -4,6 +4,7 @@ description: 'Guia dos pubs históricos de Londres: os mais antigos e charmosos,
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Gastronomia Londres'
+destino: ['londres']
 keyword: 'pubs de londres'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/onibus-vermelho-ilustracao.jpg'

@@ -4,6 +4,7 @@ description: 'Londres ou Paris? Compare as duas cidades por atrações, custos, 
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Comparativos Europa'
+destino: ['londres', 'paris']
 keyword: 'londres ou paris'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-hora-azul.jpg'

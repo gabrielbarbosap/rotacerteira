@@ -4,6 +4,7 @@ description: 'Londres no Natal: os melhores mercados natalinos, as ruas iluminad
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Londres sazonal'
+destino: ['londres']
 keyword: 'londres no natal'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-outono.jpg'

@@ -4,6 +4,7 @@ description: 'Roteiro completo de 7 dias em Londres, dia a dia: centro históric
 pubDate: '2026-07-23'
 pillar: 'destinos'
 cluster: 'Roteiros Londres'
+destino: ['londres']
 keyword: 'roteiro londres 7 dias'
 author: 'Gabriel Barbosa'
 heroImage: '../../assets/hero/londres/big-ben-outono.jpg'
