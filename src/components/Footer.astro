@@ -16,6 +16,7 @@ const today = new Date();
 	<p class="legal">
 		&copy; {today.getFullYear()} {SITE_TITLE}. Alguns links são de afiliado — se você comprar por
 		eles, o site pode receber uma comissão, sem custo extra para você.
+		<a href="/politica-de-privacidade">Política de Privacidade</a>
 	</p>
 </footer>
 <style>
@@ -60,5 +61,13 @@ const today = new Date();
 		font-size: 0.8em;
 		border-top: 1px solid var(--border);
 		padding-top: 1.2em;
+	}
+	.legal a {
+		display: block;
+		margin-top: 0.5em;
+		color: var(--muted);
+	}
+	.legal a:hover {
+		color: var(--link);
 	}
 </style>
