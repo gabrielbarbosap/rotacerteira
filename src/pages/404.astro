@@ -1,0 +1,58 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE, PILLARS } from '../consts';
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<BaseHead
+			title={`Página não encontrada — ${SITE_TITLE}`}
+			description="Esta página não existe ou foi movida. Veja os principais destinos e guias do Rota Certeira."
+		/>
+		<meta name="robots" content="noindex, follow" />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1 class="section-title">Página não encontrada</h1>
+			<p>
+				O link que você seguiu pode estar quebrado ou a página foi movida. Aproveite para explorar
+				o site a partir daqui:
+			</p>
+			<nav class="pillar-chips" aria-label="Pilares">
+				{PILLARS.map((p) => <a href={`/${p.slug}`}>{p.label}</a>)}
+			</nav>
+			<p><a href="/">← Voltar para a página inicial</a></p>
+		</main>
+		<Footer />
+	</body>
+</html>
+<style>
+	main {
+		width: 720px;
+		max-width: calc(100% - 2em);
+		margin: 3em auto;
+	}
+	.pillar-chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5em;
+		margin: 1.5em 0 2em;
+	}
+	.pillar-chips a {
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 999px;
+		padding: 0.4em 0.9em;
+		text-decoration: none;
+		color: var(--text);
+		font-size: 0.9rem;
+	}
+	.pillar-chips a:hover {
+		border-color: var(--accent);
+		color: var(--link);
+	}
+</style>

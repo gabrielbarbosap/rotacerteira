@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
+import { extractFaq } from '../../utils/faq';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog', ({ data }) =>
@@ -15,6 +16,7 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content, headings } = await render(post);
+const faq = extractFaq(post.body ?? '');
 
 // Relacionados: mesmo pilar, exclui o atual, até 3 (completa com o cluster).
 const related = (
@@ -25,6 +27,6 @@ const related = (
 	.slice(0, 3);
 ---
 
-<BlogPost {...post.data} headings={headings} related={related}>
+<BlogPost {...post.data} headings={headings} related={related} faq={faq} slug={post.id}>
 	<Content />
 </BlogPost>

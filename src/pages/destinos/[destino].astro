@@ -21,12 +21,33 @@ const posts = (
 
 const title = `${label} — Destinos — ${SITE_TITLE}`;
 const description = `Todos os artigos sobre ${label} no ${SITE_TITLE}: roteiros, passeios, custos e dicas práticas.`;
+
+const breadcrumbSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'Início', item: new URL('/', Astro.site).toString() },
+		{
+			'@type': 'ListItem',
+			position: 2,
+			name: 'Destinos',
+			item: new URL('/destinos', Astro.site).toString(),
+		},
+		{
+			'@type': 'ListItem',
+			position: 3,
+			name: label,
+			item: new URL(`/destinos/${slug}`, Astro.site).toString(),
+		},
+	],
+};
 ---
 
 <!doctype html>
 <html lang="pt-BR">
 	<head>
 		<BaseHead title={title} description={description} />
+		<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 	</head>
 	<body>
 		<Header />
